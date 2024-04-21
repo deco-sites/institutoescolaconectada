@@ -75,9 +75,9 @@
     },
     "mainColors": {
       "base-100": "#ffffff",
-      "primary": "#171717",
-      "secondary": "#c7c7c7",
-      "tertiary": "#404040",
+      "primary": "#8F298C",
+      "secondary": "#00AEEF",
+      "tertiary": "#8F298C",
       "neutral": "#333333",
       "success": "#008060",
       "warning": "#ffc453",
@@ -88,8 +88,15 @@
       "__resolveType": "website/loaders/fonts/googleFonts.ts",
       "fonts": [
         {
-          "variations": [],
-          "family": "Albert Sans"
+          "variations": [
+            {
+              "weight": "400"
+            },
+            {
+              "weight": "700"
+            }
+          ],
+          "family": "Montserrat"
         }
       ]
     }
