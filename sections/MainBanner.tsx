@@ -1,44 +1,35 @@
-import { useState } from "preact/hooks"
-
 import Image from "apps/website/components/Image.tsx";
 import type { ImageWidget } from "apps/admin/widgets.ts";
 
-
-export interface BannerImage {
-    image?: {
-        
-    }
-}
-
 export interface Props {
     /**
-     * @title Banner Imagem
+     * @description Banner Imagem
      */
     imagem?: {
         src?: ImageWidget
         alt?: string
     }
     /**
-     * @title Banner Texto
+     * @description Banner Texto
      */
     textBanner?: string
     /**
-     * @title Banner Ícone Player
+     * @description Banner Ícone Player
      */
     imagemPlayer?: {
         src?: ImageWidget
         alt?: string
     }
     /**
-     * @title Banner - Texto Botão
+     * @description Banner - Texto Botão
      */
     textButton?: string
     /**
-     * @title Banner - Link Botão
+     * @description Banner - Link Botão
      */
     linkButton?: string
     /**
-     * @title Banner - Link do vídeo
+     * @description Banner - Link do vídeo
      */
     linkIframe?: string
 }
@@ -58,10 +49,8 @@ export default function BannerPrincipal({
     linkIframe = "https://www.youtube.com/embed/N48elyl_Qz8?si=mOpmNKT307wMo8wl"
 }: Props) {
 
-    const [ stateModal, setStateModal ] = useState(false)
-
     return (
-        <section>
+        <div>
             <div>
                 <Image 
                     src={imagem.src || ""} 
@@ -75,17 +64,14 @@ export default function BannerPrincipal({
                         width={100} 
                         height={28} 
                         alt={imagemPlayer.alt}
-                        onClick={() => setStateModal(true)}
                     /> 
                     <h1>{textBanner}</h1>
                     <a href={linkButton} target="_blank">{textButton}</a>
                 </div>
             </div>
-            {(stateModal == true)} ?
-                <div>
-                    <iframe src={linkIframe} loading="lazy"></iframe>    
-                </div>
-            : ''
-        </section>
+            <div>
+                <iframe src={linkIframe} loading="lazy"></iframe>    
+            </div>
+        </div>
     )
 }
