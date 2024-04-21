@@ -60,14 +60,13 @@ export default function Haader({
       { label: "Contact", url: "/" },
     ],
     buttons: [
-      { id: "change-me-1", href: "/", text: "Change me", outline: false },
-      { id: "change-me-2", href: "/", text: "Change me", outline: true },
+      { id: "change-me-1", href: "/", text: "Change me", outline: false }
     ],
   },
 }: Nav) {
   return (
     <nav class="container mx-auto lg:px-0 px-4">
-      <div class="flex gap-8 items-center justify-between py-4">
+      <div class="flex gap-8 items-center justify-between py-4 relative">
         <a href="/">
           <Image src={logo.src || ""} width={100} height={28} alt={logo.alt} />
         </a>
@@ -113,14 +112,14 @@ export default function Haader({
           </div>
         </label>
 
-        <ul class="hidden items-center justify-between lg:flex w-full">
+        <ul class="hidden items-center justify-end lg:flex w-full lg:pr-[7%]">
           <ul class="flex">
             {navigation.links.map((link) => (
               <li>
                 <a
                   href={link.url}
                   aria-label={link.label}
-                  class="link no-underline hover:underline p-4"
+                  class="link no-underline p-4"
                 >
                   {link.label}
                 </a>
@@ -134,7 +133,7 @@ export default function Haader({
                 id={item?.id}
                 href={item?.href}
                 target={item?.href.includes("http") ? "_blank" : "_self"}
-                class={`font-normal btn btn-primary ${
+                class={`font-normal text-white bg-gradient-to-bl from-[#00AEEF] to-[#8F298C] btn uppercase ${
                   item.outline && "btn-outline"
                 }`}
               >
