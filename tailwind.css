@@ -50,3 +50,7 @@
     display: none;
   }
 }
+
+.banner-main-home {
+  top: calc(50% - 190px);
+}
