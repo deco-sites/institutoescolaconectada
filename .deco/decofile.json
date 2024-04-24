@@ -506,10 +506,22 @@
         "linkIframe": "https://www.youtube.com/embed/N48elyl_Qz8?si=mOpmNKT307wMo8wl"
       },
       {
-        "__resolveType": "site/sections/BannerText.tsx"
+        "__resolveType": "site/sections/BannerText.tsx",
+        "imagem": {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/feffc34e-a789-4fa0-8d44-fffe94f98478"
+        },
+        "textBanner": "Propósito",
+        "textContentBanenr": "Impulsionar a transformação da educação por meio da conectividade.",
+        "textButton": "Nosso Propósito",
+        "linkButton": "#"
       },
       {
-        "__resolveType": "site/sections/LastBannerHome.tsx"
+        "__resolveType": "site/sections/LastBannerHome.tsx",
+        "imagem": {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/feffc34e-a789-4fa0-8d44-fffe94f98478"
+        },
+        "textBanner": "Nossos Números",
+        "textContentBanenr": "Criado em novembro de 2020, o Instituto Escola Conectada é uma ONG que tem como propósito impulsionar a transformação da educação por meio da conectividade. Para isso, sua missão é levar internet de alta velocidade gratuita para escolas públicas do Brasil, contribuindo para a universalização da conectividade da educação até 2025.  "
       },
       {
         "__resolveType": "site/sections/Hero.tsx",
