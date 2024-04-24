@@ -52,10 +52,10 @@ export default function BannerSecond({
                     class="relative"
                 />
                 <div class="banner-main-home absolute mx-auto right-0 left-0">
-                    <div class="mx-auto text-center w-7/12 border-2 border-white py-14 px-8 relative">
-                        <h1 class="text-4xl font-family text-white w-full uppercase mb-6 font-bold">{textBanner}</h1>
-                        <p>{textContentBanenr}</p>
-                        <a class="absolute -bottom-10 left-0 right-0 mx-auto w-1/5 bg-[#04A8EA] uppercase font-bold py-5 px-4 text-white" href={linkButton} target="_blank">{textButton}</a>
+                    <div class="mx-auto text-center w-7/12 py-14 px-8 relative">
+                        <h1 class="text-4xl font-family text-white w-full uppercase mb-6 font-bold after:h-2 after:w-[30%] after:block after:mx-auto after:bg-gradient-to-r after:from-[#8D298F] after:to-[#04A8EA] after:mt-1">{textBanner}</h1>
+                        <p class="block text-white text-2xl my-14">{textContentBanenr}</p>
+                        <a class="mx-auto w-1/5 bg-[#8D298F] uppercase font-bold py-4 px-4 text-white" href={linkButton} target="_blank">{textButton}</a>
                     </div>
                 </div>
             </div>
