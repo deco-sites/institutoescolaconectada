@@ -28,7 +28,7 @@ export interface Props {
     linkButton?: string
 }
 
-export default function BannerSecond({
+export default function BannerLast({
     imagem = {
         src: "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/f941a0e0-1296-4e1f-993a-afbdea727685",
         alt: "Banner Principal - Instituto Escola Conectada"
