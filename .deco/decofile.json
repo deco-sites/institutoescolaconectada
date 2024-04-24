@@ -506,6 +506,12 @@
         "linkIframe": "https://www.youtube.com/embed/N48elyl_Qz8?si=mOpmNKT307wMo8wl"
       },
       {
+        "__resolveType": "site/sections/BannerText.tsx"
+      },
+      {
+        "__resolveType": "site/sections/LastBannerHome.tsx"
+      },
+      {
         "__resolveType": "site/sections/Hero.tsx",
         "title": "<p>Click here to tweak this text however you want.</p>",
         "description": "This text is entirely editable, tailor it freely."
