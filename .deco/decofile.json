@@ -524,25 +524,6 @@
         "textContentBanenr": "Criado em novembro de 2020, o Instituto Escola Conectada é uma ONG que tem como propósito impulsionar a transformação da educação por meio da conectividade. Para isso, sua missão é levar internet de alta velocidade gratuita para escolas públicas do Brasil, contribuindo para a universalização da conectividade da educação até 2025.  "
       },
       {
-        "__resolveType": "site/sections/Hero.tsx",
-        "title": "<p>Click here to tweak this text however you want.</p>",
-        "description": "This text is entirely editable, tailor it freely."
-      },
-      {
-        "__resolveType": "site/sections/MainPost.tsx",
-        "post": {
-          "__resolveType": "blog/loaders/BlogPostItem.ts",
-          "slug": "why-we-web"
-        }
-      },
-      {
-        "__resolveType": "site/sections/BlogPosts.tsx",
-        "posts": {
-          "__resolveType": "blog/loaders/BlogpostList.ts",
-          "count": 6
-        }
-      },
-      {
         "__resolveType": "site/sections/Footer.tsx"
       }
     ],
