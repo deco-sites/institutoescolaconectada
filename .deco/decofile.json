@@ -548,6 +548,9 @@
         ],
         "selos": [
           {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/ccca7c68-0be4-4244-9162-f7acd623280a"
+          },
+          {
             "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/8d44dedf-da4b-4227-99de-3d2ceff51c1d",
             "name": "Educação de Qualidade"
           },
