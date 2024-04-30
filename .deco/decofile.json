@@ -623,6 +623,9 @@
     "navigation": {
       "links": [],
       "buttons": []
+    },
+    "logo": {
+      "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/1e40abc7-c7e7-4354-822c-e05a1a62c023"
     }
   }
 }
