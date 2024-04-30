@@ -55,6 +55,9 @@
     "navigation": {
       "links": [],
       "buttons": []
+    },
+    "logo": {
+      "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/1e40abc7-c7e7-4354-822c-e05a1a62c023"
     }
   },
   "Neutral": {
@@ -488,7 +491,7 @@
     "path": "/",
     "sections": [
       {
-        "__resolveType": "site/sections/Header.tsx"
+        "__resolveType": "New Header"
       },
       {
         "__resolveType": "site/sections/MainBanner.tsx",
@@ -600,6 +603,29 @@
     "firstByteThresholdMS": false,
     "theme": {
       "__resolveType": "Neutral"
+    }
+  },
+  "pages-Prop%C3%B3sito-387344": {
+    "name": "Propósito",
+    "path": "/proposito",
+    "sections": [
+      {
+        "__resolveType": "Header"
+      },
+      {
+        "__resolveType": "site/sections/BannerPages.tsx"
+      }
+    ],
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "New Header": {
+    "__resolveType": "site/sections/Header.tsx",
+    "navigation": {
+      "links": [],
+      "buttons": []
+    },
+    "logo": {
+      "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/1e40abc7-c7e7-4354-822c-e05a1a62c023"
     }
   }
 }
