@@ -614,6 +614,45 @@
       },
       {
         "__resolveType": "site/sections/BannerPages.tsx"
+      },
+      {
+        "__resolveType": "site/sections/RichText.tsx",
+        "text": "<h1 class=\"text-[#8D298F] text-4xl font-family text-center w-full uppercase mb-6 font-bold after:h-2 after:w-[30%] after:block after:mx-auto after:bg-gradient-to-r after:from-[#8D298F] after:to-[#04A8EA] after:mt-1\">Quem somos</h1><p>Surgimos em 2020 com uma meta ambiciosa O Instituto Escola Conectada começou as suas atividades em novembro de 2020. Em fevereiro do ano seguinte foi realizada a instalação de internet de alta velocidade na primeira escola do programa: Escola Municipal Prudente de Moraes, em Miracema (RJ). Pouco depois, em maio do mesmo ano, foi a vez da Escola Municipal Pedro Ernesto, no Rio de Janeiro (RJ), ser a segunda escola a entrar para o programa. Neste momento, o Instituto Escola Conectada segue em franca expansão, para cumprir seu propósito de impulsionar a transformação da sociedade por meio da conectividade! Nossa atuação é validada periodicamente por um conselho composto por integrantes da diretoria do Grupo Datora e integrantes sociedade civil.</p>"
+      },
+      {
+        "__resolveType": "site/sections/NossosPilares.tsx"
+      },
+      {
+        "__resolveType": "site/sections/Founders.tsx",
+        "founder": [
+          {
+            "imagem": {
+              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/f3c5f301-40b1-4523-927c-5d009d185b51",
+              "alt": "Raul Fuchs"
+            },
+            "name": "Raul Fuchs",
+            "description": "Acredito que o Escola Conectada pode ajudar a transformar a educação brasileira pela via da conectividade!",
+            "linkedIn": "#"
+          },
+          {
+            "imagem": {
+              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/f3c5f301-40b1-4523-927c-5d009d185b51",
+              "alt": "Raul Fuchs"
+            },
+            "name": "Raul Fuchs",
+            "description": "Acredito que o Escola Conectada pode ajudar a transformar a educação brasileira pela via da conectividade!",
+            "linkedIn": "#"
+          },
+          {
+            "imagem": {
+              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/f3c5f301-40b1-4523-927c-5d009d185b51",
+              "alt": "Raul Fuchs"
+            },
+            "name": "Raul Fuchs",
+            "description": "Acredito que o Escola Conectada pode ajudar a transformar a educação brasileira pela via da conectividade!",
+            "linkedIn": "#"
+          }
+        ]
       }
     ],
     "__resolveType": "website/pages/Page.tsx"
