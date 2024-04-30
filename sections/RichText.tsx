@@ -1,6 +1,9 @@
 import type { HTMLWidget } from "apps/admin/widgets.ts";
 
 export interface Props {
+    /**
+    * @description Banner Imagem
+    */
   text: HTMLWidget;
   containerWidth?: number;
 }
