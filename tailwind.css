@@ -54,3 +54,42 @@
 .banner-main-home {
   top: calc(50% - 190px);
 }
+
+.template-grid {
+  grid-template-areas: 
+    "missao"
+    "proposito"
+    "valores"
+    "visao"
+  ;
+}
+
+.missao {
+  grid-row: span 3 / span 3;
+  grid-column-start: 3;
+  grid-row-start: 1;
+}
+
+.proposito {
+  grid-row: span 3 / span 3;
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
+.visao {
+  grid-row: span 3 / span 3;
+  grid-column-start: 3;
+  grid-row-start: 4;
+}
+
+.valores {
+  grid-row: span 4 / span 4;
+  grid-column-start: 4;
+  grid-row-start: 2;
+}
+
+.item-grid ul {
+  list-style: disc;
+  text-align: left;
+  padding: 0 15px;
+}

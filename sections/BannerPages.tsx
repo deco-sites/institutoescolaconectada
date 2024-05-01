@@ -23,9 +23,9 @@ export default function BannerImage({
             <Image 
                 src={imagem.src || ""} 
                 width={1440} 
-                height={500} 
+                height={336} 
                 alt={imagem.alt}
-                class="relative"
+                class="relative mb-16"
             />
         </div>
     )

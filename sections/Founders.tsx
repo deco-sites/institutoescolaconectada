@@ -46,24 +46,26 @@ export default function Founders({
         }
     ]
 }: Props) {
-    <div>
-        {
-            founder.map((value) => (
-                <div>
-                    <Image 
-                        src={value?.imagem?.src || ""} 
-                        width={1440} 
-                        height={500} 
-                        alt={value?.imagem?.alt}
-                        class="relative"
-                    />
+    return (
+        <div>
+            {
+                founder.map((value) => (
                     <div>
-                        <h5>{value.name}</h5>
-                        <p>{value.description}</p>
-                        <a href={value.linkedIn} target="_blank" rel="noopener noreferrer">Link</a>
+                        <Image 
+                            src={value?.imagem?.src || ""} 
+                            width={1440} 
+                            height={500} 
+                            alt={value?.imagem?.alt}
+                            class="relative"
+                        />
+                        <div>
+                            <h5>{value.name}</h5>
+                            <p>{value.description}</p>
+                            <a href={value.linkedIn} target="_blank" rel="noopener noreferrer">Link</a>
+                        </div>
                     </div>
-                </div>
-            ))
-        }
-    </div>
+                ))
+            }
+        </div>
+    )
 }
