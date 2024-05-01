@@ -682,7 +682,7 @@
       },
       {
         "__resolveType": "site/sections/RichText.tsx",
-        "text": "<h1 class=\"text-[#8D298F] text-4xl font-family text-center w-full uppercase mb-6 font-bold after:h-2 after:w-[50%] after:block after:mx-auto after:bg-gradient-to-r after:from-[#8D298F] after:to-[#04A8EA] after:mt-1\">O que fazemos</h1>"
+        "text": "<h1 class=\"text-[#8D298F] text-4xl font-family text-center w-full uppercase mb-6 font-bold after:h-2 after:w-[50%] after:block after:mx-auto after:bg-gradient-to-r after:from-[#8D298F] after:to-[#04A8EA] after:mt-1\">O que fazemos</h1><p><strong>Diagnóstico</strong><br>Calculamos o Índice Escola Conectada, garantindo que as escolas estejam aptas a participar do programa.<br><br><strong>Conexão</strong><br>Conectamos escolas a provedores de internet locais, garantindo a expansão e sustentabilidade do projeto.<br><br><strong>Monitoramento</strong><br>Monitoramos a conectividade através de uma plataforma própria, garantindo a segurança, qualidade e privacidade da conectividade.<br><br><strong>Mensuração</strong><br>Mensuramos os resultados por meio de indicadores próprios, provando o quanto a internet de qualidade impacta na vida dos estudantes.<br></p>"
       },
       {
         "__resolveType": "site/sections/Map.tsx",
