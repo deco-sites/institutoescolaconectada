@@ -101,3 +101,9 @@
   height: 45px;
   display: block;
 }
+
+.content-text-map {
+  margin-top: calc(20% - 150px);
+  margin-left: 10%;
+  margin-right: 10%;
+}
