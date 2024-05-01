@@ -93,3 +93,11 @@
   text-align: left;
   padding: 0 15px;
 }
+
+.button-linkedin {
+  font-size: 0;
+  background: url('https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/e181a7fb-c85d-4b29-9ea3-88a8cda2d737') no-repeat center;
+  width: 45px;
+  height: 45px;
+  display: block;
+}
