@@ -682,7 +682,7 @@
       },
       {
         "__resolveType": "site/sections/RichText.tsx",
-        "text": "<p>New</p>"
+        "text": "<h1 class=\"text-[#8D298F] text-4xl font-family text-center w-full uppercase mb-6 font-bold after:h-2 after:w-[50%] after:block after:mx-auto after:bg-gradient-to-r after:from-[#8D298F] after:to-[#04A8EA] after:mt-1\">O que fazemos</h1>"
       },
       {
         "__resolveType": "site/sections/Map.tsx",
