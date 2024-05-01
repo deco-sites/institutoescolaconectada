@@ -669,5 +669,11 @@
     "theme": {
       "__resolveType": "Neutral"
     }
+  },
+  "pages-O%20que%20fazemos-563565": {
+    "name": "O que fazemos",
+    "path": "/o-que-fazemos",
+    "sections": [],
+    "__resolveType": "website/pages/Page.tsx"
   }
 }
