@@ -47,21 +47,21 @@ export default function Founders({
     ]
 }: Props) {
     return (
-        <div>
+        <div class="container flex gap-3 justify-around my-10">
             {
                 founder.map((value) => (
-                    <div>
+                    <div class="w-80">
                         <Image 
                             src={value?.imagem?.src || ""} 
                             width={1440} 
                             height={500} 
                             alt={value?.imagem?.alt}
-                            class="relative"
+                            class="relative -bottom-[1px] w-full"
                         />
-                        <div>
-                            <h5>{value.name}</h5>
+                        <div class="border-[#04A8EA] border-r border-b border-l rounded-bl-[10px] rounded-br-[10px] text-center relative px-4 py-10">
+                            <h5 class="text-2xl font-bold bg-gradient-to-tr from-[#8D298F] to-[#04A8EA] inline-block text-transparent bg-clip-text mb-2 text-center mx-auto">{value.name}</h5>
                             <p>{value.description}</p>
-                            <a href={value.linkedIn} target="_blank" rel="noopener noreferrer">Link</a>
+                            <a class="absolute -top-6 right-4 button-linkedin" href={value.linkedIn} target="_blank" rel="noopener noreferrer">Link</a>
                         </div>
                     </div>
                 ))
