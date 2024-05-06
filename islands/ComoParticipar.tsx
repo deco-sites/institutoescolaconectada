@@ -9,28 +9,30 @@ export default function ComoParticipar() {
     return (
         <div>
             <div>
-                <h2>Como participar</h2>
-                <div>
-                    <div>
-                        <h3>Escola</h3>
-                        <p>Se você é uma escola candidate-se para receber internet rápida e gratuita.</p>
-                        <button onClick={(e) => {e.preventDefaul(), setModal(true), setScholl(true)}}>Quero internet</button>
-                    </div>
-                    <div>
-                        <h3>Provedor</h3>
-                        <p>Se você é um provedor, se inscreva que buscaremos uma escola na sua região.</p>
-                        <button onClick={(e) => {e.preventDefaul(), setModal(true), setProvider(true)}}>Quero internet</button>
-                    </div>
-                    <div>
-                        <h3>Apoiador</h3>
-                        <p>Se você quer apoiar o nosso trabalho, doe para o Escola Conectada.</p>
-                        <a href="#" target="_blank">Quero doar</a>
+                <h2 class="text-5xl font-bold bg-gradient-to-r mx-auto w-full from-[#8D298F] to-[#04A8EA] inline-block text-transparent bg-clip-text mb-8 text-center">Como participar</h2>
+                <div class="flex items-center justify-center gap-5 bg-[#04A8EA] py-16">
+                    <div class="container flex gap-5 justify-around items-center">
+                        <div class="text-center w-1/4">
+                            <h3 class="text-white text-2xl font-bold">Escola</h3>
+                            <p class="text-white my-5 text-base">Se você é uma escola candidate-se para receber internet rápida e gratuita.</p>
+                            <button class="text-white bg-[#8D2A8C] font-bold rounded-full py-3 px-9" onClick={() => {setModal(true), setScholl(true)}}>Quero internet</button>
+                        </div>
+                        <div class="text-center w-1/4">
+                            <h3 class="text-white text-2xl font-bold">Provedor</h3>
+                            <p class="text-white my-5 text-base">Se você é um provedor, se inscreva que buscaremos uma escola na sua região.</p>
+                            <button class="text-white bg-[#8D2A8C] font-bold rounded-full py-3 px-9" onClick={() => {setModal(true), setProvider(true)}}>Quero ajudar</button>
+                        </div>
+                        <div class="text-center w-1/4">
+                            <h3 class="text-white text-2xl font-bold">Apoiador</h3>
+                            <p class="text-white my-5 text-base">Se você quer apoiar o nosso trabalho, doe para o Escola Conectada.</p>
+                            <a class="text-white bg-[#8D2A8C] font-bold rounded-full py-3 px-9" href="#" target="_blank">Quero doar</a>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class={activeModal == true ? `fixed top-0 left-0 w-full h-full` : `opacity-0 overflow-hidden hidden`}>
-                <div class="w-full h-full absolute top-0 left-0 bg-black opacity-5" onClick={() => {setModal(false), (activeSchool == true) ? setScholl(false) : '', (activeProvider == true) ? setProvider(false) : ''}}></div>
-                <div class={activeSchool == true ? `fixed mx-auto w-80 top-10` : `opacity-0 overflow-hidden hidden`}>
+                <div class="w-full h-full absolute top-0 left-0 bg-black opacity-70 z-10" onClick={() => {setModal(false), (activeSchool == true) ? setScholl(false) : '', (activeProvider == true) ? setProvider(false) : ''}}></div>
+                <div class={activeSchool == true ? `fixed mx-auto w-96 top-10 z-50 right-0 left-0` : `opacity-0 overflow-hidden hidden`}>
                     <form action="https://submit-form.com/6mzk0gaK7" style="display: flex; flex-direction: column; font-family: Inter, sans-serif; font-size: 1.8vh; color: black; padding: 24px; background-color: white; border-radius: 8px; box-shadow: rgba(0, 0, 0, 0) 0px 0px 8px 0px;">
                         <input type="hidden" name="_redirect" value="https://escolaconectada.org/obrigado-contato" />
                         <label for="ispName" style="margin-bottom: 8px;">Nome da Escola</label>
@@ -47,7 +49,7 @@ export default function ComoParticipar() {
                         <input type="submit" value="Enviar" style="font-size: 16px; font-family: Manrope, &quot;sans serif&quot;; width: 100%; padding: 16px; background-color: rgb(33, 33, 33); color: white; font-weight: bold; border: none; border-radius: 4px; cursor: pointer;" />
                     </form>
                 </div> 
-                <div class={activeProvider == true ? `fixed mx-auto w-80 top-10` : `opacity-0 overflow-hidden hidden`}>
+                <div class={activeProvider == true ? `fixed mx-auto w-96 top-10 z-50 right-0 left-0` : `opacity-0 overflow-hidden hidden`}>
                     <form action="https://submit-form.com/y3JeZtOB3" style="display: flex; flex-direction: column; font-size: 1.8vh; color: black; padding: 24px; background-color: white; border-radius: 8px; box-shadow: rgba(0, 0, 0, 0) 0px 0px 8px 0px;">
                         <input type="hidden" name="_redirect" value="https://escolaconectada.org/obrigado-contato" />
                         <label for="ispName" style="margin-bottom: 8px;">Nome do Provedor</label>
