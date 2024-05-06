@@ -25,7 +25,7 @@ const DEFAULT_IMAGE =
   "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/682eb374-def2-4e85-a45d-b3a7ff8a31a9";
 
 export default function BlogPosts({
-  title = "FAQs",
+  title = "Perguntas Frequentes",
   description =
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
   cta = { id: "change-me", href: "/", text: "Change me", outline: true },
@@ -59,27 +59,13 @@ export default function BlogPosts({
 }: Props) {
   return (
     <div class="container lg:mx-auto mx-4 text-sm py-12 lg:py-28">
-      <div class="flex flex-col lg:flex-row gap-10 lg:gap-20 justify-between">
-        <div class="flex-none space-y-6 lg:w-2/5">
-          <p class="text-4xl leading-snug">
+      <div class="flex flex-col gap-10 lg:gap-20 justify-between">
+        <div class="flex-none space-y-6 mx-auto">
+          <h2 class="text-[#8D298F] text-5xl font-family text-center w-full uppercase mb-6 font-bold after:h-2 after:w-[30%] after:block after:mx-auto after:bg-gradient-to-r after:from-[#8D298F] after:to-[#04A8EA] after:mt-1">
             {title}
-          </p>
-          <p class="text-lg">
-            {description}
-          </p>
-          <a
-            key={cta?.id}
-            id={cta?.id}
-            href={cta?.href}
-            target={cta?.href.includes("http") ? "_blank" : "_self"}
-            class={`font-normal btn btn-primary ${
-              cta.outline && "btn-outline"
-            }`}
-          >
-            {cta?.text}
-          </a>
+          </h2>
         </div>
-        <div class="flex-auto border-primary border-t">
+        <div class="flex-auto border-primary border-t w-1/2 mx-auto">
           {questions?.map((question) => (
             <details class="border-primary border-b group">
               <summary class="text-lg cursor-pointer py-6 flex ">
@@ -98,6 +84,9 @@ export default function BlogPosts({
                       stroke="#18181B"
                     />
                   </svg>
+                  {/* <svg width="33px" height="33px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4 12H20M12 4V20" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg> */}
                 </span>
               </summary>
               <p
