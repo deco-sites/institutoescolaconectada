@@ -33,7 +33,7 @@ export default function LinksTransparencia({
         },
         {
             text: "Política de Doação",
-            link: "#"
+            link: "#/"
         },
         {
             text: "Cartão CNPJ",
