@@ -1,3 +1,5 @@
+import ComoParticipar from "../islands/ComoParticipar.tsx"
+
 export interface Props {
     titleMap: string
     /** @format rich-text */
@@ -11,23 +13,26 @@ export default function Map({
     linkIframeMap = `<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1lFW2lx4RYWygzowEV0GimuJ1hN_JpcU&ehbc=2E312F" width="640" height="480"></iframe>`
 }: Props) {
     return (
-        <div class="relative after:w-full after:h-96 after:bg-[#8F298C] after:absolute after:-bottom-12 after:-z-10 mb-20 flex items-center mt-10">
-            <div class="content-text-map">
-                <h2 class="text-white text-4xl font-bold mb-4 block">{titleMap}</h2>
-                <p 
-                    dangerouslySetInnerHTML={{
-                        __html: textMap
-                    }}
-                    class="text-white"
-                />
+        <div class="flex flex-col">
+            <div class="relative after:w-full after:h-96 after:bg-[#8F298C] after:absolute after:-bottom-12 after:-z-10 mb-20 flex items-center mt-10">
+                <div class="content-text-map">
+                    <h2 class="text-white text-4xl font-bold mb-4 block">{titleMap}</h2>
+                    <p 
+                        dangerouslySetInnerHTML={{
+                            __html: textMap
+                        }}
+                        class="text-white"
+                    />
+                </div>
+                <div>
+                    <div
+                        dangerouslySetInnerHTML={{
+                            __html: linkIframeMap
+                        }}
+                    />
+                </div>
             </div>
-            <div>
-                <div
-                     dangerouslySetInnerHTML={{
-                        __html: linkIframeMap
-                    }}
-                />
-            </div>
+            <ComoParticipar />
         </div>
     )
 }
