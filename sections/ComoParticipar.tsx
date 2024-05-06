@@ -1,6 +1,6 @@
 import ComoParticipar from "../islands/ComoParticipar.tsx"
 
-// New
+// New te
 
 export default function Participar() {
     return (
