@@ -82,10 +82,10 @@ export default function BannerPrincipalIsland({
                 />
                 <Image 
                     src={imagemMobile.src || ""} 
-                    width={440} 
-                    height={360} 
+                    width={360} 
+                    height={440} 
                     alt={imagemMobile.alt}
-                    class="relative min-[1020px]:hidden"
+                    class="relative min-[1020px]:hidden max-[1020px]:w-full"
                 />
                 <div class="banner-main-home absolute mx-auto right-0 left-0">
                     <div class="mx-auto text-center w-7/12 border-2 border-white py-14 px-8 relative max-[1020px]:w-4/5 max-[1020px]:mt-8">

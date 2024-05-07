@@ -65,9 +65,9 @@ export default function BannerSecond({
                 <Image 
                     src={imagemMobile.src || ""} 
                     width={440} 
-                    height={360} 
+                    height={529} 
                     alt={imagemMobile.alt}
-                    class="relative min-[1020px]:hidden"
+                    class="relative min-[1020px]:hidden max-[1020px]:w-full"
                 />
                 <div class="banner-main-home absolute mx-auto right-0 left-0">
                     <div class="mx-auto text-center w-7/12 py-14 px-8 relative max-[1020px]:w-[95%] max-[1020px]:mt-[25%]">
