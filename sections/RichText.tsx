@@ -21,6 +21,7 @@ export default function RichText(
         maxWidth: containerWidth ? containerWidth : 1440,
         margin: "0 auto",
       }}
+      class="max-[1020px]:w-[95%]"
     >
     </div>
   );

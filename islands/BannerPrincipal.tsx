@@ -11,6 +11,13 @@ export interface Props {
         alt?: string
     }
     /**
+     * @description Banner Imagem Mobile
+     */
+    imagemMobile?: {
+        src?: ImageWidget
+        alt?: string
+    }
+    /**
      * @description Banner Texto
      */
     textBanner?: string
@@ -40,6 +47,10 @@ export default function BannerPrincipalIsland({
         src: "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/f941a0e0-1296-4e1f-993a-afbdea727685",
         alt: "Banner Principal - Instituto Escola Conectada"
     },
+    imagemMobile = {
+        src: "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/301b19f2-f571-4fab-9b50-792a73026e98",
+        alt: "Banner Principal - Instituto Escola Conectada"
+    },
     imagemPlayer = {
         src: "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/828d911e-66eb-40de-aa2f-e8391ee55705",
         alt: "Player"
@@ -47,7 +58,7 @@ export default function BannerPrincipalIsland({
     textBanner = "Conectando para Transformar",
     textButton = "Doe agora",
     linkButton = "#",
-    linkIframe = "https://www.youtube.com/embed/N48elyl_Qz8?si=mOpmNKT307wMo8wl"
+    linkIframe = "https://www.youtube.com/embed/zAdabsYmc3c?si=aFIOf6LCNIWVEqFp"
 }: Props) {
 
     const [ modal, setModal ] = useState(false)
@@ -61,17 +72,24 @@ export default function BannerPrincipalIsland({
     
     return (
         <div>
-            <div class="relative bg-gradient-to-bl from-[#04A8EA] to-[#8D298F] ">
+            <div class="relative bg-gradient-to-bl from-[#04A8EA] to-[#8D298F] max-[1020px]:h-[440px]">
                 <Image 
                     src={imagem.src || ""} 
                     width={1440} 
                     height={500} 
                     alt={imagem.alt}
-                    class="relative"
+                    class="relative max-[1020px]:hidden"
+                />
+                <Image 
+                    src={imagemMobile.src || ""} 
+                    width={440} 
+                    height={360} 
+                    alt={imagemMobile.alt}
+                    class="relative min-[1020px]:hidden"
                 />
                 <div class="banner-main-home absolute mx-auto right-0 left-0">
-                    <div class="mx-auto text-center w-7/12 border-2 border-white py-14 px-8 relative">
-                        <h1 class="text-4xl font-family text-white w-full uppercase mb-6 font-bold">{textBanner}</h1>
+                    <div class="mx-auto text-center w-7/12 border-2 border-white py-14 px-8 relative max-[1020px]:w-4/5 max-[1020px]:mt-8">
+                        <h1 class="text-4xl font-family text-white w-full uppercase mb-6 font-bold max-[1020px]:text-xl">{textBanner}</h1>
                         <Image
                             src={imagemPlayer.src || ""} 
                             width={100} 
@@ -80,7 +98,7 @@ export default function BannerPrincipalIsland({
                             class="mx-auto cursor-pointer my-10"
                             onClick={() => setModal(true)}
                         /> 
-                        <a class="absolute -bottom-10 left-0 right-0 mx-auto w-1/5 bg-[#04A8EA] uppercase font-bold py-5 px-4 text-white" href={linkButton} target="_blank">{textButton}</a>
+                        <a class="absolute -bottom-10 left-0 right-0 mx-auto w-1/5 bg-[#04A8EA] uppercase font-bold py-5 px-4 text-white max-[1020px]:w-3/5 max-[1020px]:py-2 max-[1020px]:px-2 max-[1020px]:-bottom-5" href={linkButton} target="_blank">{textButton}</a>
                     </div>
                 </div>
             </div>

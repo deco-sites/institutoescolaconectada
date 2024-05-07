@@ -51,8 +51,16 @@
   }
 }
 
-.banner-main-home {
-  top: calc(50% - 190px);
+@media (min-width: 1020px) {
+  .banner-main-home {
+    top: calc(50% - 190px);
+  }
+}
+
+@media (max-width: 1020px) {
+  .banner-main-home {
+    top: 0;
+  }
 }
 
 .template-grid {
@@ -106,4 +114,16 @@
   margin-top: calc(20% - 150px);
   margin-left: 10%;
   margin-right: 10%;
+  @media screen and (max-width: 1020px) {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  .map-page {
+    width: 100%;
+    iframe {
+      width: 100% !important;
+    }
+  }
 }

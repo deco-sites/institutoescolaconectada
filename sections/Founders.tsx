@@ -47,7 +47,7 @@ export default function Founders({
     ]
 }: Props) {
     return (
-        <div class="container flex gap-3 justify-around my-10">
+        <div class="container flex gap-3 justify-around my-10 max-[1020px]:flex-col max-[1020px]:items-center">
             {
                 founder.map((value) => (
                     <div class="w-80">

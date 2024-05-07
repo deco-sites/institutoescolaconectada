@@ -11,6 +11,13 @@ export interface Props {
         alt?: string
     }
     /**
+     * @description Banner Imagem
+     */
+    imagemMobile?: {
+        src?: ImageWidget
+        alt?: string
+    }
+    /**
      * @description Texto Principal - Banner
      */
     textBanner?: string
@@ -57,6 +64,10 @@ export default function BannerLast({
         src: "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/f941a0e0-1296-4e1f-993a-afbdea727685",
         alt: "Banner Principal - Instituto Escola Conectada"
     },
+    imagemMobile = {
+        src: "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/ec05cc54-ba21-4c3a-a3d2-766fb0896724",
+        alt: "Banner Principal - Instituto Escola Conectada"
+    },
     textBanner = "Propósito",
     numberOfSchools = 461,
     textContentOfSchols = "Escolas Conectadas",
@@ -79,14 +90,21 @@ export default function BannerLast({
                     width={1440} 
                     height={500} 
                     alt={imagem.alt}
-                    class="relative"
+                    class="relative max-[1020px]:hidden"
                 />
-                <div class="banner-main-home absolute mx-auto right-0 left-0 flex align-top">
-                    <div class="mx-auto w-[35%] py-14 px-8 relative text-left">
+                <Image 
+                    src={imagemMobile.src || ""} 
+                    width={794} 
+                    height={360} 
+                    alt={imagemMobile.alt}
+                    class="relative min-[1020px]:hidden"
+                />
+                <div class="banner-main-home absolute mx-auto right-0 left-0 flex align-top max-[1020px]:flex-col">
+                    <div class="mx-auto w-[35%] py-14 px-8 relative text-left max-[1020px]:w-[95%]">
                         <h1 class="text-3xl font-family text-white w-full mb-6 font-bold">{textBanner}</h1>
                         <p class="block text-white text-base">{textContentBanenr}</p>
                     </div>
-                    <div class="mx-auto w-[35%] py-14 px-8 relative text-left before:w-2 before:h-[70%] before:inline-block before:bg-[#04A8EA] before:absolute before:left-1">
+                    <div class="mx-auto w-[35%] py-14 px-8 relative text-left before:w-2 before:h-[70%] before:inline-block before:bg-[#04A8EA] before:absolute before:left-1 max-[1020px]:w-[95%] max-[1020px]:before:left-2">
                         <div class="flex items-center w-[45%] mb-2">
                             <span class="text-white text-5xl font-bold block mr-2">{numberOfSchools}</span>
                             <p class="block text-white text-base">{textContentOfSchols}</p>
