@@ -92,8 +92,7 @@ export default function BlogPosts({
               <p
                 class="leading-relaxed mb-6 group-open:animate-fadeIn"
                 dangerouslySetInnerHTML={{ __html: question.answer }}
-              >
-              </p>
+              />
             </details>
           ))}
         </div>

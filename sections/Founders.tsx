@@ -53,10 +53,10 @@ export default function Founders({
                     <div class="w-80">
                         <Image 
                             src={value?.imagem?.src || ""} 
-                            width={1440} 
-                            height={500} 
+                            width={274} 
+                            height={211} 
                             alt={value?.imagem?.alt}
-                            class="relative -bottom-[1px] w-full min-h-[246px]"
+                            class="relative -bottom-[1px] w-full min-h-[246px] max-[1020px]:object-contain"
                         />
                         <div class="border-[#04A8EA] border-r border-b border-l rounded-bl-[10px] rounded-br-[10px] text-center relative px-4 py-10 h-[289px] flex flex-col justify-center">
                             <h5 class="text-2xl font-bold bg-gradient-to-tr from-[#8D298F] to-[#04A8EA] inline-block text-transparent bg-clip-text mb-2 text-center mx-auto">{value.name}</h5>
