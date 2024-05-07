@@ -47,9 +47,9 @@ export default function NossosPilares({
     ]
 }: Props) {
     return (
-        <div class="relative after:w-full after:h-96 after:bg-[#8F298C] after:absolute after:-bottom-12 after:-z-10 mb-20">
+        <div class="relative after:w-full after:h-96 after:bg-[#8F298C] after:absolute after:-bottom-12 after:-z-10 mb-20 max-[1020px]:after:h-full">
             <h1 class="text-[#8D298F] text-4xl font-family text-center w-full uppercase font-bold mt-16 block mb-16">{title}</h1>
-            <div class="grid grid-cols-5 grid-rows-6 gap-4">
+            <div class="grid grid-cols-5 grid-rows-6 gap-4 max-[1020px]:flex max-[1020px]:flex-col max-[1020px]:items-center">
                 {
                     items.map((value) => (
                         <div class={`${validaCaracteres(value.title).toLocaleLowerCase()} item-grid w-64 h-auto bg-[#DDF5FF] rounded-xl text-center flex flex-col items-center justify-center px-4 py-4`}>

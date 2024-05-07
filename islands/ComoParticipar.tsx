@@ -9,21 +9,21 @@ export default function ComoParticipar() {
     return (
         <div>
             <div>
-                <h2 class="text-5xl font-bold bg-gradient-to-r mx-auto w-full from-[#8D298F] to-[#04A8EA] inline-block text-transparent bg-clip-text mb-8 text-center">Como participar</h2>
+                <h2 class="text-5xl font-bold bg-gradient-to-r mx-auto w-full from-[#8D298F] to-[#04A8EA] inline-block text-transparent bg-clip-text mb-8 text-center max-[1020px]:text-4xl">Como participar</h2>
                 <div class="flex items-center justify-center gap-5 bg-[#04A8EA] py-16">
-                    <div class="container flex gap-5 justify-around items-center">
-                        <div class="text-center w-1/4">
-                            <h3 class="text-white text-2xl font-bold">Escola</h3>
+                    <div class="container flex gap-5 justify-around items-center max-[1020px]:flex-col">
+                        <div class="text-center w-1/4 max-[1020px]:w-[95%] max-[1020px]:py-5">
+                            <h3 class="text-white text-2xl font-bold max-[1020px]:text-4xl">Escola</h3>
                             <p class="text-white my-5 text-base">Se você é uma escola candidate-se para receber internet rápida e gratuita.</p>
                             <button class="text-white bg-[#8D2A8C] font-bold rounded-full py-3 px-9" onClick={() => {setModal(true), setScholl(true)}}>Quero internet</button>
                         </div>
-                        <div class="text-center w-1/4">
-                            <h3 class="text-white text-2xl font-bold">Provedor</h3>
+                        <div class="text-center w-1/4 max-[1020px]:w-[95%] max-[1020px]:py-5">
+                            <h3 class="text-white text-2xl font-bold max-[1020px]:text-4xl">Provedor</h3>
                             <p class="text-white my-5 text-base">Se você é um provedor, se inscreva que buscaremos uma escola na sua região.</p>
                             <button class="text-white bg-[#8D2A8C] font-bold rounded-full py-3 px-9" onClick={() => {setModal(true), setProvider(true)}}>Quero ajudar</button>
                         </div>
-                        <div class="text-center w-1/4">
-                            <h3 class="text-white text-2xl font-bold">Apoiador</h3>
+                        <div class="text-center w-1/4 max-[1020px]:w-[95%] max-[1020px]:py-5">
+                            <h3 class="text-white text-2xl font-bold max-[1020px]:text-4xl">Apoiador</h3>
                             <p class="text-white my-5 text-base">Se você quer apoiar o nosso trabalho, doe para o Escola Conectada.</p>
                             <a class="text-white bg-[#8D2A8C] font-bold rounded-full py-3 px-9" href="#" target="_blank">Quero doar</a>
                         </div>

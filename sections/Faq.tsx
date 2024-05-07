@@ -58,14 +58,14 @@ export default function BlogPosts({
   ],
 }: Props) {
   return (
-    <div class="container lg:mx-auto mx-4 text-sm py-12 lg:py-28">
+    <div class="container lg:mx-auto mx-4 text-sm py-12 lg:py-28 max-[1020px]:mx-0">
       <div class="flex flex-col gap-10 lg:gap-20 justify-between">
         <div class="flex-none space-y-6 mx-auto">
-          <h2 class="text-[#8D298F] text-5xl font-family text-center w-full uppercase mb-6 font-bold after:h-2 after:w-[30%] after:block after:mx-auto after:bg-gradient-to-r after:from-[#8D298F] after:to-[#04A8EA] after:mt-1">
+          <h2 class="text-[#8D298F] text-5xl font-family text-center w-full uppercase mb-6 font-bold after:h-2 after:w-[30%] after:block after:mx-auto after:bg-gradient-to-r after:from-[#8D298F] after:to-[#04A8EA] after:mt-1 max-[1020px]:text-xl">
             {title}
           </h2>
         </div>
-        <div class="flex-auto border-primary border-t w-1/2 mx-auto">
+        <div class="flex-auto border-primary border-t w-1/2 mx-auto max-[1020px]:w-[95%]">
           {questions?.map((question) => (
             <details class="border-primary border-b group">
               <summary class="text-lg cursor-pointer py-6 flex ">

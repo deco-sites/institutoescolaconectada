@@ -68,8 +68,24 @@ export default function Haader({
     <nav class="container mx-auto lg:px-0 px-4">
       <div class="flex gap-8 items-center justify-between py-4 relative">
         <a href="/">
-          <Image src={logo.src || ""} width={200} height={40} alt={logo.alt} />
+          <Image src={logo.src || ""} width={200} height={40} alt={logo.alt} class="max-[1020px]:w-[150px]" />
         </a>
+
+        <div class="lg:hidden">
+          {navigation.buttons?.map((item) => (
+            <a
+              key={item?.id}
+              id={item?.id}
+              href={item?.href}
+              target={item?.href.includes("http") ? "_blank" : "_self"}
+              class={`font-normal text-white bg-gradient-to-bl from-[#00AEEF] to-[#8F298C] btn uppercase text-xs ${
+                item.outline && "btn-outline"
+              }`}
+            >
+              {item?.text}
+            </a>
+          ))}
+        </div>
 
         <label
           class="cursor-pointer lg:hidden pt-6 relative z-40"
@@ -83,7 +99,7 @@ export default function Haader({
             &nbsp;
           </div>
           <div class="duration-500 fixed h-full overflow-y-auto overscroll-y-none peer-checked:translate-x-0 right-0 top-0 transition translate-x-full w-full z-40">
-            <div class="bg-base-100 flex flex-col float-right gap-8 min-h-full pt-12 px-6 shadow-2xl w-1/2">
+            <div class="bg-base-100 flex flex-col float-right gap-8 min-h-full pt-12 px-6 shadow-2xl w-2/3">
               <ul class="flex flex-col gap-8">
                 {navigation?.links.map((link) => (
                   <li>

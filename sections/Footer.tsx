@@ -133,8 +133,8 @@ export default function Footer({
   return (
     <div class="lg:container lg:mx-auto md:max-w-6xl mx-4 pt-16 text-sm">
       <div class="flex flex-col gap-20">
-        <div class="flex gap-6 justify-between lg:flex-row">
-          <div class="flex flex-col w-3/12">
+        <div class="flex gap-6 justify-between lg:flex-row max-[1020px]:flex-col">
+          <div class="flex flex-col w-3/12 max-[1020px]:w-full">
             <Image
               src={logo.src || ""}
               width={100}
@@ -222,7 +222,7 @@ export default function Footer({
               ))}
             </div>
           </div>
-          <div class="flex flex-col w-2/6">
+          <div class="flex flex-col w-2/6 max-[1020px]:w-full">
             <h4 class="text-xl text-[#8D298F] font-semibold">{titleWork}</h4>
             <p
               class="text-[15px]"
@@ -231,7 +231,7 @@ export default function Footer({
               }}
             />
           </div>
-          <div class="flex w-2/6 justify-between">
+          <div class="flex w-2/6 justify-between max-[1020px]:w-full max-[1020px]:flex-wrap">
               {selos?.map((selo) => (
                 <div class="gap-3">
                   <Image 
@@ -245,7 +245,7 @@ export default function Footer({
           </div>
         </div>
         <div class="border-primary border-t flex flex-col gap-4 items-center justify-between lg:items-center py-8">
-          <div class="flex gap-4 items-center lg:flex-row lg:gap-6">
+          <div class="flex gap-4 items-center lg:flex-row lg:gap-6 max-[1020px]:flex-col">
               <div>
                 <p class="text-[#5D6A83] text-sm">{addressBottom}</p>
               </div>
