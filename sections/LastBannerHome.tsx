@@ -94,10 +94,10 @@ export default function BannerLast({
                 />
                 <Image 
                     src={imagemMobile.src || ""} 
-                    width={794} 
-                    height={360} 
+                    width={360} 
+                    height={794} 
                     alt={imagemMobile.alt}
-                    class="relative min-[1020px]:hidden"
+                    class="relative min-[1020px]:hidden max-[1020px]:w-full"
                 />
                 <div class="banner-main-home absolute mx-auto right-0 left-0 flex align-top max-[1020px]:flex-col">
                     <div class="mx-auto w-[35%] py-14 px-8 relative text-left max-[1020px]:w-[95%]">

@@ -128,7 +128,7 @@ export default function Haader({
           </div>
         </label>
 
-        <ul class="hidden items-center justify-end lg:flex w-full lg:pr-[7%]">
+        <ul class="hidden items-center justify-end lg:flex w-full lg:pr-[12%]">
           <ul class="flex">
             {navigation.links.map((link) => (
               <li>
@@ -142,14 +142,14 @@ export default function Haader({
               </li>
             ))}
           </ul>
-          <ul class="flex gap-3">
+          <ul class="flex gap-3 min-[1020px]:absolute min-[1020px]:top-0 min-[1020px]:right-0">
             {navigation.buttons?.map((item) => (
               <a
                 key={item?.id}
                 id={item?.id}
                 href={item?.href}
                 target={item?.href.includes("http") ? "_blank" : "_self"}
-                class={`font-normal text-white bg-gradient-to-bl from-[#00AEEF] to-[#8F298C] btn uppercase ${
+                class={`font-normal text-white bg-gradient-to-bl from-[#00AEEF] to-[#8F298C] btn uppercase min-[1020px]:h-20 min-[1020px]:flex min-[1020px]:z-10 min-[1020px]:items-end min-[1020px]:pb-4 min-[1020px]:font-bold ${
                   item.outline && "btn-outline"
                 }`}
               >
