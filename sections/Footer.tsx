@@ -253,13 +253,13 @@ export default function Footer({
                 <p  class="text-[#5D6A83] text-sm">{rigthsReserved}</p>
               </div>
           </div>
-          <div>
+          <div class="mt-10">
             <p>{madeWith.label}</p>
-            <a href={madeWith.href}>
+            <a href={madeWith.href} target="_blank">
               <Image 
                 src={madeWith?.src || ""}
-                width={100}
-                height={28}
+                width={150}
+                height={90}
                 alt={madeWith?.label}
               />
             </a>
