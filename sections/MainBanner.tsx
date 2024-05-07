@@ -3,38 +3,38 @@ import BannerPrincipalIsland from "../islands/BannerPrincipal.tsx"
 import Image from "apps/website/components/Image.tsx";
 import type { ImageWidget } from "apps/admin/widgets.ts";
 
-export interface Props {
-    /**
-     * @description Banner Imagem
-     */
-    imagem?: {
-        src?: ImageWidget
-        alt?: string
-    }
-    /**
-     * @description Banner Texto
-     */
-    textBanner?: string
-    /**
-     * @description Banner Ícone Player
-     */
-    imagemPlayer?: {
-        src?: ImageWidget
-        alt?: string
-    }
-    /**
-     * @description Banner - Texto Botão
-     */
-    textButton?: string
-    /**
-     * @description Banner - Link Botão
-     */
-    linkButton?: string
-    /**
-     * @description Banner - Link do vídeo
-     */
-    linkIframe?: string
-}
+// export interface Props {
+//     /**
+//      * @description Banner Imagem
+//      */
+//     imagem?: {
+//         src?: ImageWidget
+//         alt?: string
+//     }
+//     /**
+//      * @description Banner Texto
+//      */
+//     textBanner?: string
+//     /**
+//      * @description Banner Ícone Player
+//      */
+//     imagemPlayer?: {
+//         src?: ImageWidget
+//         alt?: string
+//     }
+//     /**
+//      * @description Banner - Texto Botão
+//      */
+//     textButton?: string
+//     /**
+//      * @description Banner - Link Botão
+//      */
+//     linkButton?: string
+//     /**
+//      * @description Banner - Link do vídeo
+//      */
+//     linkIframe?: string
+// }
 
 export default function BannerPrincipal({
     imagem = {
@@ -49,7 +49,7 @@ export default function BannerPrincipal({
     textButton = "Doe agora",
     linkButton = "#",
     linkIframe = "https://www.youtube.com/embed/N48elyl_Qz8?si=mOpmNKT307wMo8wl"
-}: Props) {
+}) {
 
     // const [ modal, setModal ] = useState(false)
 
