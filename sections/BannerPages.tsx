@@ -25,7 +25,7 @@ export default function BannerImage({
                 width={1440} 
                 height={336} 
                 alt={imagem.alt}
-                class="relative mb-16"
+                class="relative mb-16 lg:w-full"
             />
         </div>
     )
