@@ -78,7 +78,7 @@ export default function BannerPrincipalIsland({
                     width={1440} 
                     height={500} 
                     alt={imagem.alt}
-                    class="relative max-[1020px]:hidden"
+                    class="relative max-[1020px]:hidden lg:w-full"
                 />
                 <Image 
                     src={imagemMobile.src || ""} 
