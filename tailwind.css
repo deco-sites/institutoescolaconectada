@@ -128,7 +128,7 @@
   }
 }
 
-ul {
+.rich-text-content ul {
   padding-left: 15px;
   list-style: disc;
 }
