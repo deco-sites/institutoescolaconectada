@@ -67,7 +67,7 @@ export default function BlogPosts({
         </div>
         <div class="flex-auto border-primary border-t w-1/2 mx-auto max-[1020px]:w-[95%]">
           {questions?.map((question) => (
-            <details class="border-primary border-b group">
+            <details class="border-primary border-b group pb-3">
               <summary class="text-lg cursor-pointer py-6 flex ">
                 <span class="flex-auto">{question.title}</span>
                 <span class="flex-none transition group-open:rotate-180">
@@ -90,7 +90,7 @@ export default function BlogPosts({
                 </span>
               </summary>
               <p
-                class="leading-relaxed mb-6 group-open:animate-fadeIn"
+                class="leading-relaxed group-open:animate-fadeIn"
                 dangerouslySetInnerHTML={{ __html: question.answer }}
               />
             </details>

@@ -15,22 +15,24 @@ export default function Map({
     return (
         <div class="flex flex-col">
             <div class="relative after:w-full after:h-96 after:bg-[#8F298C] after:absolute after:-bottom-12 after:-z-10 mb-20 flex items-center mt-10 max-[1020px]:flex-col max-[1020px]:after:hidden max-[1020px]:bg-[#8F298C] max-[1020px]:py-10">
-                <div class="content-text-map">
-                    <h2 class="text-white text-4xl font-bold mb-4 block">{titleMap}</h2>
-                    <p 
-                        dangerouslySetInnerHTML={{
-                            __html: textMap
-                        }}
-                        class="text-white"
-                    />
-                </div>
-                <div class="max-[1020px]:mt-10 map-page">
-                    <div
-                        dangerouslySetInnerHTML={{
-                            __html: linkIframeMap
-                        }}
-                        class="max-[1020px]:w-full"
-                    />
+                <div class="container flex items-center mt-10 max-[1020px]:flex-col max-[1020px]:after:hidden max-[1020px]:bg-[#8F298C] max-[1020px]:py-10">
+                    <div class="content-text-map">
+                        <h2 class="text-white text-4xl font-bold mb-4 block">{titleMap}</h2>
+                        <p 
+                            dangerouslySetInnerHTML={{
+                                __html: textMap
+                            }}
+                            class="text-white"
+                        />
+                    </div>
+                    <div class="max-[1020px]:mt-10 map-page">
+                        <div
+                            dangerouslySetInnerHTML={{
+                                __html: linkIframeMap
+                            }}
+                            class="max-[1020px]:w-full"
+                        />
+                    </div>
                 </div>
             </div>
             <ComoParticipar />

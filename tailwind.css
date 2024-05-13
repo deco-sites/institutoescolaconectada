@@ -111,7 +111,7 @@
 }
 
 .content-text-map {
-  margin-top: calc(20% - 150px);
+  margin-top: calc(20% - 90px);
   margin-left: 10%;
   margin-right: 10%;
   @media screen and (max-width: 1020px) {
@@ -126,4 +126,9 @@
       width: 100% !important;
     }
   }
+}
+
+ul {
+  padding-left: 15px;
+  list-style: disc;
 }
