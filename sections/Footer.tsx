@@ -134,7 +134,7 @@ export default function Footer({
     <div class="lg:container lg:mx-auto md:max-w-6xl mx-4 pt-16 text-sm">
       <div class="flex flex-col gap-20">
         <div class="flex gap-6 justify-between lg:flex-row max-[1020px]:flex-col">
-          <div class="flex flex-col w-3/12 max-[1020px]:w-full">
+          <div class="flex flex-col w-2/6 max-[1020px]:w-full">
             <Image
               src={logo.src || ""}
               width={100}
@@ -231,7 +231,7 @@ export default function Footer({
               }}
             />
           </div>
-          <div class="flex w-2/6 justify-between max-[1020px]:w-full max-[1020px]:flex-wrap">
+          <div class="flex w-3/6 justify-between max-[1020px]:w-full max-[1020px]:flex-wrap">
               {selos?.map((selo) => (
                 <div class="gap-3">
                   <Image 
