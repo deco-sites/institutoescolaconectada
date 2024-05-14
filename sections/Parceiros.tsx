@@ -34,9 +34,10 @@ export default function Parceiros({
                             <Image 
                                 src={value.src || ""} 
                                 width={185}
-                                height={60} 
                                 alt={value.label}
                                 class="relative mb-8"
+                                decoding="async"
+                                loading="lazy"
                             />
                         ))
                     }
