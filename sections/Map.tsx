@@ -1,4 +1,4 @@
-import ComoParticipar from "../islands/ComoParticipar.tsx"
+
 
 export interface Props {
     titleMap: string
@@ -18,7 +18,7 @@ export default function Map({
                 <div class="container flex items-center mt-10 max-[1020px]:flex-col max-[1020px]:after:hidden max-[1020px]:bg-[#8F298C] max-[1020px]:py-10">
                     <div class="content-text-map">
                         <h2 class="text-white text-4xl font-bold mb-4 block">{titleMap}</h2>
-                        <p 
+                        <div 
                             dangerouslySetInnerHTML={{
                                 __html: textMap
                             }}
@@ -35,7 +35,6 @@ export default function Map({
                     </div>
                 </div>
             </div>
-            <ComoParticipar />
         </div>
     )
 }
