@@ -135,7 +135,7 @@ export default function Haader({
                 <a
                   href={link.url}
                   aria-label={link.label}
-                  class="link no-underline p-4 data-[current=true]:after:h-2 data-[current=true]:after:w-[80%] data-[current=true]:after:bg-gradient-to-bl data-[current=true]:after:from-[#00AEEF] data-[current=true]:after:to-[#8F298C] data-[current=true]:after:inline-block relative data-[current=true]:after:absolute data-[current=true]:after:bottom-0 data-[current=true]:after:left-0 data-[current=true]:after:right-0 data-[current=true]:after:mx-auto"
+                  class="link no-underline p-4 data-[current=true]:after:h-[3px] data-[current=true]:after:w-[80%] data-[current=true]:after:bg-gradient-to-bl data-[current=true]:after:from-[#00AEEF] data-[current=true]:after:to-[#8F298C] data-[current=true]:after:inline-block relative data-[current=true]:after:absolute data-[current=true]:after:bottom-2 data-[current=true]:after:left-0 data-[current=true]:after:right-0 data-[current=true]:after:mx-auto"
                 >
                   {link.label}
                 </a>

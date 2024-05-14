@@ -1,4 +1,4 @@
-import actionNewsletter from "../actions/sendNewsletter.tsx"
+import formNewsletter from "../actions/sendNewsletter.tsx"
 
 export interface Props {
     textTitle?: string
@@ -17,10 +17,18 @@ export default function NewsletterNew({
                     <p class="text-white text-xl max-[1020px]:text-base max-[1020px]:w-full max-[1020px]:text-center">{textContent}</p>
                 </div>
                 <div class="w-1/2 py-10 mr-10 max-[1020px]:mr-0 max-[1020px]:py-2 max-[1020px]:w-full">
-                    <form class="flex flex-wrap justify-center">
+                    {/* <form class="flex flex-wrap justify-center">
                         <input type="text" name="name" id="name" placeholder="Nome" class="w-72 rounded-xl px-4 outline-none mr-4 mb-8 py-4 max-[1020px]:mr-0"/>
                         <input type="text" name="email" id="email" placeholder="E-mail" class="w-72 rounded-xl px-4 outline-none py-4 mb-8"/>
-                        <button class="w-72 rounded-full bg-[#04A8EA] text-white text-xl font-bold py-4" onChange={(e) => {e.stopPropagation(), actionNewsletter}}>Enviar</button>
+                        <textarea name="message" id="message" cols="30" rows="1" placeholder="Mensagem" class="w-72 rounded-xl px-4 outline-none mr-4 py-4 max-[1020px]:mr-0"></textarea>
+                        <button class="w-72 rounded-full bg-[#04A8EA] text-white text-xl font-bold py-4" onChange={(e) => {e.stopPropagation()}}>Enviar</button>
+                    </form> */}
+                    <form class="flex flex-wrap justify-center" action="https://submit-form.com/pghKKaUz">
+                        <input type="hidden" name="_redirect" value="https://escolaconectada.org/obrigado-contato" />
+                        <input type="text" name="name" id="name" placeholder="Nome" class="w-72 rounded-xl px-4 outline-none mr-4 mb-8 py-4 max-[1020px]:mr-0"/>
+                        <input type="text" name="email" id="email" placeholder="E-mail" class="w-72 rounded-xl px-4 outline-none py-4 mb-8"/>
+                        <textarea name="message" id="message" cols="30" rows="1" placeholder="Mensagem" class="w-72 rounded-xl px-4 outline-none mr-4 py-4 max-[1020px]:mr-0"></textarea>
+                        <input type="submit" value="Enviar" class="w-72 rounded-full bg-[#04A8EA] text-white text-xl font-bold py-4 cursor-pointer"/>
                     </form>
                 </div>
             </div>

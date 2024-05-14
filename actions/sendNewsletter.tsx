@@ -1,43 +1,18 @@
 export interface Props {
-  email: string;
+  email?: string;
   name?: string;
+  message?: string
 }
 
-const actionNewsletter = async (
-  props: Props,
-  _req: Request,
-): Promise<void> => {
-  const form = new FormData();
-  const {
-    email,
-    name = ""
-  } = props;
 
-  let email2 = (e.currentTarget.elements.namedItem("email"))?.value
-  let name2 = (e.currentTarget.elements.namedItem("name"))?.value
-
-  const postInfo = {
-        headers: {
-          "Authorization": "Bearer re_BkYSxTrZ_5uMxYkStSn1GkyJNCZY5uCtD",
-          "Content-Type": "application/json"
-        },
-        method: "POST",
-        data: {
-          cc: [],
-          to: ["rodrigoaraujo.contact@gmail.com"],
-          bcc: [],
-          from: "onboarding@resend.dev",
-          text: `Nome: ${name2}, Email: ${email2}`,
-          html: `<p>Nome: ${name2}, <p>Email: ${email2},</p>`
-        }
-  }
-
-  const response = await fetch("https://api.resend.com/email", postInfo);
-    if (response.ok) {
-      alert("Email enviado com sucesso!");
-    } else {
-      alert("Falha ao enviar email.");
-    }
-};
-
-export default actionNewsletter;
+export default function formNewsletter() {
+  return (
+    <form class="flex flex-wrap justify-center" action="https://submit-form.com/pghKKaUz">
+        <input type="hidden" name="_redirect" value="https://escolaconectada.org/obrigado-contato" />
+        <input type="text" name="name" id="name" placeholder="Nome" class="w-72 rounded-xl px-4 outline-none mr-4 mb-8 py-4 max-[1020px]:mr-0"/>
+        <input type="text" name="email" id="email" placeholder="E-mail" class="w-72 rounded-xl px-4 outline-none py-4 mb-8"/>
+        <textarea name="message" id="message" cols="30" rows="1" placeholder="Mensagem" class="w-72 rounded-xl px-4 outline-none mr-4 py-4 max-[1020px]:mr-0"></textarea>
+        <input type="submit" value="Enviar" class="w-72 rounded-full bg-[#04A8EA] text-white text-xl font-bold py-4"/>
+    </form>
+  )
+}
