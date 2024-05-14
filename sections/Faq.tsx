@@ -1,6 +1,7 @@
 import type { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 
+
 export interface CTA {
   id?: string;
   href: string;
@@ -68,7 +69,7 @@ export default function BlogPosts({
         <div class="flex-auto border-primary border-t w-1/2 mx-auto max-[1020px]:w-[95%]">
           {questions?.map((question) => (
             <details class="border-primary border-b group pb-3">
-              <summary class="text-lg cursor-pointer py-6 flex ">
+              <summary class="text-lg cursor-pointer pt-6 py-2 flex ">
                 <span class="flex-auto">{question.title}</span>
                 <span class="flex-none transition group-open:rotate-180">
                   <svg
