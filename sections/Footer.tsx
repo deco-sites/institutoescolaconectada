@@ -246,9 +246,9 @@ export default function Footer({
         </div>
         <div class="border-primary border-t flex flex-col gap-4 items-center justify-between lg:items-center py-8">
           <div class="flex gap-4 items-center lg:flex-row lg:gap-6 max-[1020px]:flex-col">
-              <div>
+              {/* <div>
                 <p class="text-[#5D6A83] text-sm">{addressBottom}</p>
-              </div>
+              </div> */}
               <div>
                 <p  class="text-[#5D6A83] text-sm">{rigthsReserved}</p>
               </div>
