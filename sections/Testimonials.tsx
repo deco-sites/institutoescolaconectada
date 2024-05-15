@@ -28,7 +28,7 @@ export default function Contact({
           </div>
           <div class="flex mt-4">
               <form class="flex flex-wrap justify-center flex-col w-1/2 gap-3 max-[1020px]:w-full" action="https://submit-form.com/pghKKaUz">
-                  <input type="hidden" name="_redirect" value="https://escolaconectada.org/obrigado-contato" />
+                  <input type="hidden" name="_redirect" value="https://www.escolaconectada.org/obrigado-contato" />
                   <input type="text" name="name" id="name" placeholder="Nome" required class="w-full border border-slate-400 p-4 rounded-xl" />
                   <input type="text" name="email" id="email" placeholder="E-mail" required class="w-full border border-slate-400 p-4 rounded-xl" />
                   <input type="text" name="phone" id="phone" placeholder="Telefone" required class="w-full border border-slate-400 p-4 rounded-xl" />

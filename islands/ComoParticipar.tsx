@@ -34,7 +34,7 @@ export default function ComoParticipar() {
                 <div class="w-full h-full absolute top-0 left-0 bg-black opacity-70 z-10" onClick={() => {setModal(false), (activeSchool == true) ? setScholl(false) : '', (activeProvider == true) ? setProvider(false) : ''}}></div>
                 <div class={activeSchool == true ? `fixed mx-auto w-96 top-10 z-50 right-0 left-0` : `opacity-0 overflow-hidden hidden`}>
                     <form action="https://submit-form.com/6mzk0gaK7" style="display: flex; flex-direction: column; font-family: Inter, sans-serif; font-size: 1.8vh; color: black; padding: 24px; background-color: white; border-radius: 8px; box-shadow: rgba(0, 0, 0, 0) 0px 0px 8px 0px;">
-                        <input type="hidden" name="_redirect" value="https://escolaconectada.org/obrigado-contato" />
+                        <input type="hidden" name="_redirect" value="https://www.escolaconectada.org/obrigado-contato" />
                         <label for="ispName" style="margin-bottom: 8px;">Nome da Escola</label>
                         <input type="text" id="name" name="name_escola" placeholder="Nome da Escola" required="" style="width: 100%; padding: 16px; margin-bottom: 4vh; border: 1px solid rgb(204, 204, 204); border-radius: 4px;" />
                         <label for="codInep" style="margin-bottom: 8px;">Código Inep:</label>
@@ -51,7 +51,7 @@ export default function ComoParticipar() {
                 </div> 
                 <div class={activeProvider == true ? `fixed mx-auto w-96 top-10 z-50 right-0 left-0` : `opacity-0 overflow-hidden hidden`}>
                     <form action="https://submit-form.com/y3JeZtOB3" style="display: flex; flex-direction: column; font-size: 1.8vh; color: black; padding: 24px; background-color: white; border-radius: 8px; box-shadow: rgba(0, 0, 0, 0) 0px 0px 8px 0px;">
-                        <input type="hidden" name="_redirect" value="https://escolaconectada.org/obrigado-contato" />
+                        <input type="hidden" name="_redirect" value="https://www.escolaconectada.org/obrigado-contato" />
                         <label for="ispName" style="margin-bottom: 8px;">Nome do Provedor</label>
                         <input type="text" id="name" name="name_provider" placeholder="Nome do provedor" required="" style="width: 100%; padding: 16px; margin-bottom: 2vh; border: 1px solid rgb(204, 204, 204); border-radius: 4px;" />
                         <label for="name" style="margin-bottom: 8px;">Seu nome:</label>
