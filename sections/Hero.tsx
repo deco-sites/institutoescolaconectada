@@ -36,7 +36,7 @@ export default function HeroFlats({
     <div>
       <div class="flex flex-col gap-8 items-center mx-auto">
         <div
-          class={`flex w-full xl:container xl:mx-auto py-20 mx-5 md:mx-10 z-10 lg:pt-36 lg:pb-20 gap-12 md:gap-20 items-center container`}
+          class={`flex w-full xl:container xl:mx-auto py-20 mx-5 md:mx-10 z-10 lg:pt-10 lg:pb-20 gap-12 md:gap-20 items-center container`}
         >
           {image && (
             <Image
