@@ -7,6 +7,7 @@ export interface Founder {
         alt?: string
     }
     name?: string
+    cargo?: string
     description?: string
     linkedIn?: string
 }
@@ -23,6 +24,7 @@ export default function Founders({
                 alt: "New"
             },
             name: "Nome",
+            cargo: "Diretora da Escola Municipal Salles Marques - Além Paraiba - MG",
             description: "Lorem ipsum dolor sit amet. Qui dignissimos inventore in consequatur ratione qui asperiores quibusdam aut quaerat veniam est animi dicta.",
             linkedIn: "#"
         },
@@ -32,6 +34,7 @@ export default function Founders({
                 alt: "New"
             },
             name: "Nome",
+            cargo: "Diretora da Escola Municipal Professor Lafayette Cortes - Além Paraíba - MG",
             description: "Lorem ipsum dolor sit amet. Qui dignissimos inventore in consequatur ratione qui asperiores quibusdam aut quaerat veniam est animi dicta.",
             linkedIn: "#"
         },
@@ -41,13 +44,14 @@ export default function Founders({
                 alt: "New"
             },
             name: "Nome",
+            cargo: "Pedagoga da Escola Estadual Júlio Giongo - Pranchita - PR",
             description: "Lorem ipsum dolor sit amet. Qui dignissimos inventore in consequatur ratione qui asperiores quibusdam aut quaerat veniam est animi dicta.",
             linkedIn: "#"
         }
     ]
 }: Props) {
     return (
-        <div class="container flex gap-3 justify-around my-10 max-[1020px]:flex-col max-[1020px]:items-center">
+        <div class="container flex gap-3 justify-around my-10 max-[1020px]:flex-col max-[1020px]:items-center flex-wrap">
             {
                 founder.map((value) => (
                     <div class="w-80">
@@ -56,11 +60,12 @@ export default function Founders({
                             width={274} 
                             height={211} 
                             alt={value?.imagem?.alt}
-                            class="relative -bottom-[1px] w-full min-h-[246px] max-[1020px]:object-contain"
+                            class="relative -bottom-[1px] w-full min-h-[246px] max-h-[246px] max-[1020px]:object-contain rounded-tr-[10px] rounded-tl-[10px]"
                         />
                         <div class="border-[#04A8EA] border-r border-b border-l rounded-bl-[10px] rounded-br-[10px] text-center relative px-4 py-10 h-[289px] flex flex-col justify-center">
                             <h5 class="text-2xl font-bold bg-gradient-to-tr from-[#8D298F] to-[#04A8EA] inline-block text-transparent bg-clip-text mb-2 text-center mx-auto">{value.name}</h5>
-                            <p>{value.description}</p>
+                            <span class="text-sm">{value.cargo}</span>
+                            <p class="max-h-[200px] overflow-auto touch-pan-y">{value.description}</p>
                             <a class="absolute -top-6 right-4 button-linkedin" href={value.linkedIn} target="_blank" rel="noopener noreferrer">Link</a>
                         </div>
                     </div>

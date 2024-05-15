@@ -57,7 +57,7 @@ export default function BannerPrincipalIsland({
     },
     textBanner = "Conectando para Transformar",
     textButton = "Doe agora",
-    linkButton = "#",
+    linkButton = "https://www.paypal.com/donate?hosted_button_id=ABS3J6ZHSYFAL",
     linkIframe = "https://www.youtube.com/embed/zAdabsYmc3c?si=aFIOf6LCNIWVEqFp"
 }: Props) {
 
