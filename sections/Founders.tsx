@@ -63,10 +63,10 @@ export default function Founders({
                             class="relative -bottom-[1px] w-full min-h-[246px] max-h-[246px] max-[1020px]:object-contain rounded-tr-[10px] rounded-tl-[10px]"
                         />
                         <div class="border-[#04A8EA] border-r border-b border-l rounded-bl-[10px] rounded-br-[10px] text-center relative px-4 py-10 h-[320px] flex flex-col justify-center">
-                            <h5 class="text-2xl font-bold bg-gradient-to-tr from-[#8D298F] to-[#04A8EA] inline-block text-transparent bg-clip-text text-center mx-auto">{value.name}</h5>
-                            <span class="text-sm font-bold py-2 mb-2">{value.cargo}</span>
-                            <p class="max-h-[220px] overflow-auto touch-pan-y">{value.description}</p>
-                            <a class="absolute -top-6 right-4 button-linkedin" href={value.linkedIn} target="_blank" rel="noopener noreferrer">Link</a>
+                            <p class="max-h-[220px] overflow-y-scroll founders-scroll">{value.description}</p>
+                            {/* <h5 class="text-2xl font-bold bg-gradient-to-tr from-[#8D298F] to-[#04A8EA] inline-block text-transparent bg-clip-text text-center mx-auto"></h5> */}
+                            <span class="text-sm font-bold py-2 mt-2">{value.name} - {value.cargo}</span>
+                            {/* <a class="absolute -top-6 right-4 button-linkedin" href={value.linkedIn} target="_blank" rel="noopener noreferrer">Link</a> */}
                         </div>
                     </div>
                 ))

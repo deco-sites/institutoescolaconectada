@@ -132,3 +132,13 @@
   padding-left: 15px;
   list-style: disc;
 }
+
+.founders-scroll::-webkit-scrollbar {
+  /* Customize the scrollbar width */
+  width: 5px;
+  background-color: #ccc;
+}
+
+.founders-scroll::-webkit-scrollbar-thumb {
+  background-color: #8D298F;
+}
