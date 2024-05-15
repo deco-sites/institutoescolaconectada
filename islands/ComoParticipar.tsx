@@ -9,7 +9,7 @@ export default function ComoParticipar() {
     return (
         <div>
             <div>
-                <h2 class="text-5xl font-bold bg-gradient-to-r mx-auto w-full from-[#8D298F] to-[#04A8EA] inline-block text-transparent bg-clip-text mb-8 text-center max-[1020px]:text-4xl">Como participar</h2>
+                <h2 class="text-[#8D298F] text-3xl mt-8 font-family text-center w-full uppercase mb-6 font-bold  max-[1020px]:text-xl">Como participar</h2>
                 <div class="flex items-center justify-center gap-5 bg-[#04A8EA] py-16">
                     <div class="container flex gap-5 justify-around items-center max-[1020px]:flex-col">
                         <div class="text-center w-1/4 max-[1020px]:w-[95%] max-[1020px]:py-5">
