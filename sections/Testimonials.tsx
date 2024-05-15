@@ -15,25 +15,25 @@ export default function Contact({
   phone
 }: Props) {
   return (
-      <div>
-          <h1>{titlePage}</h1>
+      <div class="container md:max-w-6xl max-[1020px]:w-[95%]">
+          <h1 class="text-4xl font-bold text-[#8D298F] pb-3">{titlePage}</h1>
           <div>
-              <h2>{locationType}</h2>
-              <p>{contentAddress}</p>
+              <h2 class="font-bold text-xl">{locationType}</h2>
+              <p class="py-2">{contentAddress}</p>
               {
                   phone != "" ?
                       <p>{phone}</p>
                   : ''
               }
           </div>
-          <div>
-              <form class="flex flex-wrap justify-center" action="https://submit-form.com/pghKKaUz">
+          <div class="flex mt-4">
+              <form class="flex flex-wrap justify-center flex-col w-1/2 gap-3 max-[1020px]:w-full" action="https://submit-form.com/pghKKaUz">
                   <input type="hidden" name="_redirect" value="https://escolaconectada.org/obrigado-contato" />
-                  <input type="text" name="name" id="name" placeholder="Nome" required />
-                  <input type="text" name="email" id="email" placeholder="E-mail" required />
-                  <input type="text" name="phone" id="phone" required />
-                  <textarea name="message" id="message" cols="30" rows="1" placeholder="Mensagem" ></textarea>
-                  <input type="submit" value="Enviar" />
+                  <input type="text" name="name" id="name" placeholder="Nome" required class="w-full border border-slate-400 p-4 rounded-xl" />
+                  <input type="text" name="email" id="email" placeholder="E-mail" required class="w-full border border-slate-400 p-4 rounded-xl" />
+                  <input type="text" name="phone" id="phone" placeholder="Telefone" required class="w-full border border-slate-400 p-4 rounded-xl" />
+                  <textarea name="message" id="message" cols="30" rows="10" placeholder="Mensagem" class="w-full border border-slate-400 p-4 rounded-xl" ></textarea>
+                  <input type="submit" value="Enviar" class="w-1/2 rounded-full bg-[#04A8EA] text-white text-xl font-bold py-4 cursor-pointer" />
               </form>
           </div>
       </div>
