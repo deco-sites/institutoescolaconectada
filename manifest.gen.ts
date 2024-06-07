@@ -2,30 +2,33 @@
 // This file SHOULD be checked into source version control.
 // This file is automatically updated during development when running `dev.ts`.
 
+import * as $$$$$$$$$0 from "./actions/sendNewsletter.tsx";
 import * as $$$$$$$$$$$0 from "./apps/decohub.ts";
 import * as $$$$$$$$$$$1 from "./apps/site.ts";
 import * as $$$$$$0 from "./sections/BannerPages.tsx";
 import * as $$$$$$1 from "./sections/BannerText.tsx";
 import * as $$$$$$2 from "./sections/BlogPost.tsx";
 import * as $$$$$$3 from "./sections/BlogPosts.tsx";
-import * as $$$$$$4 from "./sections/Faq.tsx";
-import * as $$$$$$5 from "./sections/Footer.tsx";
-import * as $$$$$$6 from "./sections/Founders.tsx";
-import * as $$$$$$7 from "./sections/Header.tsx";
-import * as $$$$$$8 from "./sections/Hero.tsx";
-import * as $$$$$$9 from "./sections/ImageWithParagraph.tsx";
-import * as $$$$$$10 from "./sections/LastBannerHome.tsx";
-import * as $$$$$$11 from "./sections/LinksTransparencia.tsx";
-import * as $$$$$$12 from "./sections/Logos.tsx";
-import * as $$$$$$13 from "./sections/MainBanner.tsx";
-import * as $$$$$$14 from "./sections/MainPost.tsx";
-import * as $$$$$$15 from "./sections/Map.tsx";
-import * as $$$$$$16 from "./sections/NewsletterNew.tsx";
-import * as $$$$$$17 from "./sections/NossosPilares.tsx";
-import * as $$$$$$18 from "./sections/Parceiros.tsx";
-import * as $$$$$$19 from "./sections/RichText.tsx";
-import * as $$$$$$20 from "./sections/Testimonials.tsx";
-import * as $$$$$$21 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$4 from "./sections/ComoParticipar.tsx";
+import * as $$$$$$5 from "./sections/Contact.tsx";
+import * as $$$$$$6 from "./sections/Faq.tsx";
+import * as $$$$$$7 from "./sections/Footer.tsx";
+import * as $$$$$$8 from "./sections/Founders.tsx";
+import * as $$$$$$9 from "./sections/Header.tsx";
+import * as $$$$$$10 from "./sections/Hero.tsx";
+import * as $$$$$$11 from "./sections/ImageWithParagraph.tsx";
+import * as $$$$$$12 from "./sections/LastBannerHome.tsx";
+import * as $$$$$$13 from "./sections/LinksTransparencia.tsx";
+import * as $$$$$$14 from "./sections/Logos.tsx";
+import * as $$$$$$15 from "./sections/MainBanner.tsx";
+import * as $$$$$$16 from "./sections/MainPost.tsx";
+import * as $$$$$$17 from "./sections/Map.tsx";
+import * as $$$$$$18 from "./sections/NewsletterNew.tsx";
+import * as $$$$$$19 from "./sections/NossosPilares.tsx";
+import * as $$$$$$20 from "./sections/Parceiros.tsx";
+import * as $$$$$$21 from "./sections/RichText.tsx";
+import * as $$$$$$22 from "./sections/Testimonials.tsx";
+import * as $$$$$$23 from "./sections/Theme/Theme.tsx";
 
 const manifest = {
   "sections": {
@@ -33,24 +36,29 @@ const manifest = {
     "site/sections/BannerText.tsx": $$$$$$1,
     "site/sections/BlogPost.tsx": $$$$$$2,
     "site/sections/BlogPosts.tsx": $$$$$$3,
-    "site/sections/Faq.tsx": $$$$$$4,
-    "site/sections/Footer.tsx": $$$$$$5,
-    "site/sections/Founders.tsx": $$$$$$6,
-    "site/sections/Header.tsx": $$$$$$7,
-    "site/sections/Hero.tsx": $$$$$$8,
-    "site/sections/ImageWithParagraph.tsx": $$$$$$9,
-    "site/sections/LastBannerHome.tsx": $$$$$$10,
-    "site/sections/LinksTransparencia.tsx": $$$$$$11,
-    "site/sections/Logos.tsx": $$$$$$12,
-    "site/sections/MainBanner.tsx": $$$$$$13,
-    "site/sections/MainPost.tsx": $$$$$$14,
-    "site/sections/Map.tsx": $$$$$$15,
-    "site/sections/NewsletterNew.tsx": $$$$$$16,
-    "site/sections/NossosPilares.tsx": $$$$$$17,
-    "site/sections/Parceiros.tsx": $$$$$$18,
-    "site/sections/RichText.tsx": $$$$$$19,
-    "site/sections/Testimonials.tsx": $$$$$$20,
-    "site/sections/Theme/Theme.tsx": $$$$$$21,
+    "site/sections/ComoParticipar.tsx": $$$$$$4,
+    "site/sections/Contact.tsx": $$$$$$5,
+    "site/sections/Faq.tsx": $$$$$$6,
+    "site/sections/Footer.tsx": $$$$$$7,
+    "site/sections/Founders.tsx": $$$$$$8,
+    "site/sections/Header.tsx": $$$$$$9,
+    "site/sections/Hero.tsx": $$$$$$10,
+    "site/sections/ImageWithParagraph.tsx": $$$$$$11,
+    "site/sections/LastBannerHome.tsx": $$$$$$12,
+    "site/sections/LinksTransparencia.tsx": $$$$$$13,
+    "site/sections/Logos.tsx": $$$$$$14,
+    "site/sections/MainBanner.tsx": $$$$$$15,
+    "site/sections/MainPost.tsx": $$$$$$16,
+    "site/sections/Map.tsx": $$$$$$17,
+    "site/sections/NewsletterNew.tsx": $$$$$$18,
+    "site/sections/NossosPilares.tsx": $$$$$$19,
+    "site/sections/Parceiros.tsx": $$$$$$20,
+    "site/sections/RichText.tsx": $$$$$$21,
+    "site/sections/Testimonials.tsx": $$$$$$22,
+    "site/sections/Theme/Theme.tsx": $$$$$$23,
+  },
+  "actions": {
+    "site/actions/sendNewsletter.tsx": $$$$$$$$$0,
   },
   "apps": {
     "site/apps/decohub.ts": $$$$$$$$$$$0,
