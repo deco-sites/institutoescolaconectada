@@ -74,7 +74,7 @@ export default function BannerLast({
     textContentBanenr = "Impulsionar a transformação da educação por meio da conectividade.",
     numberOfSchoolsConections = 292,
     textContentOfScholsConections = "Escolas em Conexão",
-    numberOfStudants = 198.312,
+    numberOfStudants = 231.030,
     textContentOfStudants = "Estudantes Beneficiados",
     numberOfProviders = 10,
     textContentOfProviders = "Provedores Parceiros"
