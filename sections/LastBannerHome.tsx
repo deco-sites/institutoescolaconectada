@@ -44,7 +44,7 @@ export interface Props {
     /**
      * @description Banner - Texto Botão
      */
-    numberOfStudants?: number
+    numberOfStudantsNew?: string
      /**
      * @description Banner - Texto Botão
      */
@@ -74,7 +74,7 @@ export default function BannerLast({
     textContentBanenr = "Impulsionar a transformação da educação por meio da conectividade.",
     numberOfSchoolsConections = 292,
     textContentOfScholsConections = "Escolas em Conexão",
-    numberOfStudants = 231.030,
+    numberOfStudantsNew = "231.030",
     textContentOfStudants = "Estudantes Beneficiados",
     numberOfProviders = 10,
     textContentOfProviders = "Provedores Parceiros"
@@ -114,7 +114,7 @@ export default function BannerLast({
                             <p class="block text-white text-base">{textContentOfScholsConections}</p>
                         </div>
                         <div class="flex items-center w-[45%] mb-2">
-                            <span class="text-white text-5xl font-bold block mr-2">{numberOfStudants}</span>
+                            <span class="text-white text-5xl font-bold block mr-2">{numberOfStudantsNew}</span>
                             <p class="block text-white text-base">{textContentOfStudants}</p>
                         </div>
                         <div class="flex items-center w-[45%]">
