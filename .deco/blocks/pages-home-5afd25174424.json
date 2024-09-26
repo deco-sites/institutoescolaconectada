@@ -1,1 +1,66 @@
-{"name":"Home","path":"/","sections":[{"__resolveType":"New Header"},{"__resolveType":"site/sections/MainBanner.tsx","imagem":{"src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/f941a0e0-1296-4e1f-993a-afbdea727685","alt":"Banner Principal - Escola Conectada"},"textBanner":"Conectando para Transformar","imagemPlayer":{"src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/828d911e-66eb-40de-aa2f-e8391ee55705","alt":"Home Play"},"textButton":"Doe agora","linkButton":"#quem","linkIframe":"https://www.youtube.com/embed/zAdabsYmc3c?si=aFIOf6LCNIWVEqFp"},{"__resolveType":"site/sections/BannerText.tsx","imagem":{"src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/198f436a-bf69-4c41-9948-b17b694ec5fb"},"textBanner":"Propósito","textContentBanenr":"Impulsionar a transformação da educação por meio da conectividade.","textButton":"Nossa história","imagemMobile":{"src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/a2a401c7-8dfb-4433-b145-404d1ff544f6"},"linkButton":"/quem-somos"},{"__resolveType":"site/sections/LastBannerHome.tsx","imagem":{"src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/5ee47fbe-e72c-4dc2-9764-aaaaf1bf0395"},"textBanner":"Nossos Números","textContentBanenr":"Criado em novembro de 2020, o Instituto Escola Conectada é uma ONG que tem como propósito impulsionar a transformação da educação por meio da conectividade. Para isso, sua missão é levar internet de alta velocidade gratuita para escolas públicas do Brasil, contribuindo para a universalização da conectividade da educação.","imagemMobile":{"src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/ec05cc54-ba21-4c3a-a3d2-766fb0896724"},"numberOfSchools":570,"numberOfProviders":10,"numberOfStudants":231.03,"numberOfStudantsNew":"255.961","numberOfSchoolsConections":94},{"__resolveType":"site/sections/NewsletterNew.tsx","textTitle":"Newsletter","textContent":"Fique por dentro das nossas notícias"},{"__resolveType":"New Footer"}],"__resolveType":"website/pages/Page.tsx","seo":{"__resolveType":"website/sections/Seo/SeoV2.tsx","type":"website"}}
+{
+  "name": "Home",
+  "path": "/",
+  "sections": [
+    {
+      "__resolveType": "New Header"
+    },
+    {
+      "__resolveType": "site/sections/MainBanner.tsx",
+      "imagem": {
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/f941a0e0-1296-4e1f-993a-afbdea727685",
+        "alt": "Banner Principal - Escola Conectada"
+      },
+      "textBanner": "Conectando para Transformar",
+      "imagemPlayer": {
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/828d911e-66eb-40de-aa2f-e8391ee55705",
+        "alt": "Home Play"
+      },
+      "textButton": "Doe agora",
+      "linkButton": "#quem",
+      "linkIframe": "https://www.youtube.com/embed/zAdabsYmc3c?si=aFIOf6LCNIWVEqFp"
+    },
+    {
+      "__resolveType": "site/sections/BannerText.tsx",
+      "imagem": {
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/198f436a-bf69-4c41-9948-b17b694ec5fb"
+      },
+      "textBanner": "Propósito",
+      "textContentBanenr": "Impulsionar a transformação da educação por meio da conectividade.",
+      "textButton": "Nossa história",
+      "imagemMobile": {
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/a2a401c7-8dfb-4433-b145-404d1ff544f6"
+      },
+      "linkButton": "/quem-somos"
+    },
+    {
+      "__resolveType": "site/sections/LastBannerHome.tsx",
+      "imagem": {
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/5ee47fbe-e72c-4dc2-9764-aaaaf1bf0395"
+      },
+      "textBanner": "Nossos Números",
+      "textContentBanenr": "Criado em novembro de 2020, o Instituto Escola Conectada é uma ONG que tem como propósito impulsionar a transformação da educação por meio da conectividade. Para isso, sua missão é levar internet de alta velocidade gratuita para escolas públicas do Brasil, contribuindo para a universalização da conectividade da educação.",
+      "imagemMobile": {
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/ec05cc54-ba21-4c3a-a3d2-766fb0896724"
+      },
+      "numberOfSchools": 593,
+      "numberOfProviders": 10,
+      "numberOfStudants": 231.03,
+      "numberOfStudantsNew": "270.288",
+      "numberOfSchoolsConections": 117
+    },
+    {
+      "__resolveType": "site/sections/NewsletterNew.tsx",
+      "textTitle": "Newsletter",
+      "textContent": "Fique por dentro das nossas notícias"
+    },
+    {
+      "__resolveType": "New Footer"
+    }
+  ],
+  "__resolveType": "website/pages/Page.tsx",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "type": "website"
+  }
+}
