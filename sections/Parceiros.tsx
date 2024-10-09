@@ -28,14 +28,14 @@ export default function Parceiros({
         <div>
             <div>
                 <h1 class="text-[#8D298F] text-3xl mt-8 font-family text-center w-full uppercase mb-6 font-bold  max-[1020px]:text-xl">{title}</h1>
-                <div class="flex flex-wrap w-1/2 mx-auto justify-around">
+                <div class="flex flex-wrap w-1/2 mx-auto justify-around items-center gap-9">
                     {
                         logoParceiro?.map((value) => (
                             <Image 
                                 src={value.src || ""} 
-                                width={185}
+                                // width={185}
                                 alt={value.label}
-                                class="relative mb-8"
+                                class="relative w-auto max-w-40 h-auto max-h-max"
                                 decoding="async"
                                 loading="lazy"
                             />

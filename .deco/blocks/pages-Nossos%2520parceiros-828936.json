@@ -1,1 +1,88 @@
-{"name":"Nossos parceiros","path":"/nossos-parceiros","sections":[{"__resolveType":"website/sections/Seo/SeoV2.tsx","title":"Nossos parceiros | Escola Conectada","description":"Escola Conectada: Sua ponte para o futuro com parcerias de excelência.  Desenvolva as habilidades do futuro:  Treinamentos, workshops e palestras com empresas líderes. Ferramentas e tecnologias de última geração. Conexões valiosas para oportunidades de carreira. Prepare-se para o sucesso:  Parcerias com empresas em diversos setores. Experiências únicas e aprendizado prático. Futuro promissor para alunos e empresas. Visite nosso site e potencialize seu futuro!","type":"website","image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/0f45a67c-185d-4a99-ad4d-0a6d4c98128f","favicon":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/bff101b8-a1a3-488b-b1a7-562968a87767"},{"__resolveType":"New Header"},{"__resolveType":"site/sections/BannerPages.tsx","imagem":{"src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/6440203e-8d3e-489e-b1d6-16ff54fd0e73"}},{"__resolveType":"site/sections/RichText.tsx","text":"<h1 class=\"text-[#8D298F] text-5xl font-family text-center w-full uppercase mb-6 font-bold after:h-2 after:w-[30%] after:block after:mx-auto after:bg-gradient-to-r after:from-[#8D298F] after:to-[#04A8EA] after:mt-1 max-[1020px]:text-xl\">Nossos Parceiros</h1>"},{"__resolveType":"site/sections/Parceiros.tsx","title":"Patrocinadores","logoParceiro":[{"src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/8bb63556-2370-48fc-a464-04b740e59362"}]},{"__resolveType":"site/sections/Parceiros.tsx","title":"Provedores parceiros","logoParceiro":[{"src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/44be68cf-a1e5-412f-a54a-4d545ff75cfc"},{"src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/267e6f08-d533-49cc-8a54-46a284fc463f"},{"src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/ffab2c3b-c7cf-40c5-b07b-c450e4e9f06d"},{"src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/3854b87e-3371-48b1-8565-bd2985cb2255"},{"src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/3529daf8-a769-4777-8ab4-095421c61f39"},{"src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/7e538487-bc33-45a4-8e0e-c1571d2cbb96"}]},{"__resolveType":"site/sections/Parceiros.tsx","title":"Parceiros institucionais","logoParceiro":[{"src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/243b14e4-7eb1-4317-af8f-391d8aa1735e"},{"src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/af65b8be-99c2-4482-837d-09a8b1f00048"}]},{"__resolveType":"site/sections/ImageWithParagraph.tsx"},{"__resolveType":"New Footer"}],"__resolveType":"website/pages/Page.tsx"}
+{
+  "name": "Nossos parceiros",
+  "path": "/nossos-parceiros",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Seo/SeoV2.tsx",
+      "title": "Nossos parceiros | Escola Conectada",
+      "description": "Escola Conectada: Sua ponte para o futuro com parcerias de excelência.  Desenvolva as habilidades do futuro:  Treinamentos, workshops e palestras com empresas líderes. Ferramentas e tecnologias de última geração. Conexões valiosas para oportunidades de carreira. Prepare-se para o sucesso:  Parcerias com empresas em diversos setores. Experiências únicas e aprendizado prático. Futuro promissor para alunos e empresas. Visite nosso site e potencialize seu futuro!",
+      "type": "website",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/0f45a67c-185d-4a99-ad4d-0a6d4c98128f",
+      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/bff101b8-a1a3-488b-b1a7-562968a87767"
+    },
+    {
+      "__resolveType": "New Header"
+    },
+    {
+      "__resolveType": "site/sections/BannerPages.tsx",
+      "imagem": {
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/6440203e-8d3e-489e-b1d6-16ff54fd0e73"
+      }
+    },
+    {
+      "__resolveType": "site/sections/RichText.tsx",
+      "text": "<h1 class=\"text-[#8D298F] text-5xl font-family text-center w-full uppercase mb-6 font-bold after:h-2 after:w-[30%] after:block after:mx-auto after:bg-gradient-to-r after:from-[#8D298F] after:to-[#04A8EA] after:mt-1 max-[1020px]:text-xl\">Nossos Parceiros</h1>"
+    },
+    {
+      "__resolveType": "site/sections/Parceiros.tsx",
+      "title": "Patrocinadores",
+      "logoParceiro": [
+        {
+          "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/institutoescolaconectada/0625951b-9663-4400-8b88-8206d3336a07/Logo-unificado---Degrade-1.png"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Parceiros.tsx",
+      "title": "Provedores parceiros",
+      "logoParceiro": [
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/44be68cf-a1e5-412f-a54a-4d545ff75cfc"
+        },
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/267e6f08-d533-49cc-8a54-46a284fc463f"
+        },
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/ffab2c3b-c7cf-40c5-b07b-c450e4e9f06d"
+        },
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/3854b87e-3371-48b1-8565-bd2985cb2255"
+        },
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/3529daf8-a769-4777-8ab4-095421c61f39"
+        },
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/7e538487-bc33-45a4-8e0e-c1571d2cbb96"
+        },
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/ea4c2426-20b5-4382-b59d-31e635f11297"
+        },
+        {
+          "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/institutoescolaconectada/342a66a5-7f05-445c-89b4-9f4cad8f2218/CLASSICA.png"
+        },
+        {
+          "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/institutoescolaconectada/9552dd55-9334-4aaa-9523-e4c48a85eaa5/Logo-brisanet-empresas-(1).png"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Parceiros.tsx",
+      "title": "Parceiros institucionais",
+      "logoParceiro": [
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/243b14e4-7eb1-4317-af8f-391d8aa1735e"
+        },
+        {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/af65b8be-99c2-4482-837d-09a8b1f00048"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx"
+    },
+    {
+      "__resolveType": "New Footer"
+    }
+  ],
+  "__resolveType": "website/pages/Page.tsx"
+}
