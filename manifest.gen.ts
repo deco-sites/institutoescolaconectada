@@ -26,9 +26,10 @@ import * as $$$$$$17 from "./sections/Map.tsx";
 import * as $$$$$$18 from "./sections/NewsletterNew.tsx";
 import * as $$$$$$19 from "./sections/NossosPilares.tsx";
 import * as $$$$$$20 from "./sections/Parceiros.tsx";
-import * as $$$$$$21 from "./sections/RichText.tsx";
-import * as $$$$$$22 from "./sections/Testimonials.tsx";
-import * as $$$$$$23 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$21 from "./sections/Patrocinadores.tsx";
+import * as $$$$$$22 from "./sections/RichText.tsx";
+import * as $$$$$$23 from "./sections/Testimonials.tsx";
+import * as $$$$$$24 from "./sections/Theme/Theme.tsx";
 
 const manifest = {
   "sections": {
@@ -53,9 +54,10 @@ const manifest = {
     "site/sections/NewsletterNew.tsx": $$$$$$18,
     "site/sections/NossosPilares.tsx": $$$$$$19,
     "site/sections/Parceiros.tsx": $$$$$$20,
-    "site/sections/RichText.tsx": $$$$$$21,
-    "site/sections/Testimonials.tsx": $$$$$$22,
-    "site/sections/Theme/Theme.tsx": $$$$$$23,
+    "site/sections/Patrocinadores.tsx": $$$$$$21,
+    "site/sections/RichText.tsx": $$$$$$22,
+    "site/sections/Testimonials.tsx": $$$$$$23,
+    "site/sections/Theme/Theme.tsx": $$$$$$24,
   },
   "actions": {
     "site/actions/sendNewsletter.tsx": $$$$$$$$$0,
