@@ -92,7 +92,9 @@
           "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/b4ee9367-7452-4961-8462-db8f67cce79c"
         }
       ],
-      "madeWith": {},
+      "madeWith": {
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/1864dbdf-449e-4ab1-a4a0-1ec64e084508"
+      },
       "links": [],
       "bottomLinks": [],
       "contentWork": "<p class=\"text-[15px]\">Se você se identifica com a nossa missão, visão e valores, envie uma mensagem para&nbsp;<a href=\"mailto:contato@escolaconectada.org\" data-mce-href=\"mailto:contato@escolaconectada.org\">contato@escolaconectada.org</a></p>",
