@@ -28,12 +28,10 @@
       "title": "Patrocinadores",
       "logoParceiro": [
         {
-          "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/institutoescolaconectada/a6680573-7e14-4b1c-9cd2-dd05a17bb47a/datora-logo-iec.png",
+          "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/institutoescolaconectada/0625951b-9663-4400-8b88-8206d3336a07/Logo-unificado---Degrade-1.png",
           "label": "Datora"
         },
-        {
-          "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/institutoescolaconectada/d6ec57fb-bf84-4e9b-a2b3-3af8356628b7/arquia-logo-iec.png"
-        }
+        {}
       ]
     },
     {
