@@ -28,7 +28,8 @@
       "title": "Patrocinadores",
       "logoParceiro": [
         {
-          "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/institutoescolaconectada/a6680573-7e14-4b1c-9cd2-dd05a17bb47a/datora-logo-iec.png"
+          "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/institutoescolaconectada/a6680573-7e14-4b1c-9cd2-dd05a17bb47a/datora-logo-iec.png",
+          "label": "Datora"
         },
         {
           "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/institutoescolaconectada/d6ec57fb-bf84-4e9b-a2b3-3af8356628b7/arquia-logo-iec.png"
@@ -77,6 +78,9 @@
         },
         {
           "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/af65b8be-99c2-4482-837d-09a8b1f00048"
+        },
+        {
+          "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/institutoescolaconectada/f4d77505-5ef2-4b24-9fc8-e6a4a9b52d32/logo-horizontal-cor-(1).png"
         }
       ]
     },
