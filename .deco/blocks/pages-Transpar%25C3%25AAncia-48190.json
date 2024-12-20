@@ -27,7 +27,8 @@
           "link": "https://escolaconectadabr-my.sharepoint.com/:b:/g/personal/marcos_pinheiro_escolaconectada_org/Ea6-4Mkt8NtBjhi0-NyNM64BR8G6Z3YwgRqrFcBHAenVqg?e=T4GjL7"
         },
         {
-          "text": "Relatório Anual 2022"
+          "text": "Relatório Anual 2022",
+          "link": "https://escolaconectadabr-my.sharepoint.com/:b:/g/personal/paula_godoy_escolaconectada_org/EYzs7R004CdGvkc3pP9e8CgBO_bzpOs7LWelrCH8y8E7Kg?e=aUEsQn"
         },
         {
           "text": "Relatório Anual 2023",
@@ -43,7 +44,7 @@
         },
         {
           "text": "Política de Privacidade",
-          "link": "https://escolaconectadabr-my.sharepoint.com/:b:/g/personal/marcos_pinheiro_escolaconectada_org/EQH8CvcDTGhItP22CZpbpB0BcpmpEm11UB4jY93z3xADVw?e=bZ2Crs"
+          "link": "https://escolaconectadabr-my.sharepoint.com/:b:/g/personal/paula_godoy_escolaconectada_org/ESyPD1q_qZ9Bsov2wmfKUT4BA_XulJUYwltdxTSR9V3geA?e=aVSrSW"
         },
         {
           "text": "Política de Doação",
@@ -80,7 +81,7 @@
         },
         {
           "title": "2. Depois da instalação, preciso fazer algo?",
-          "answer": "<p>A única contrapartida que pedimos é que a escola&nbsp;use&nbsp;a&nbsp;internet.​</p><p>Após a conexão será configurado um protocolo de&nbsp;segurança (Anjo da Guarda)</p><p>que&nbsp;evitará o mal uso da&nbsp;conectividade, como acesso a sites maliciosos.​</p><p>O anjo da guarda nos informará se a internet está&nbsp;sendo usada. Se não</p><p>estiver,&nbsp;recomendaremos que o&nbsp;link seja levado a outra escola&nbsp;que</p><p>efetivamente a use.​</p>"
+          "answer": "<p>A escola deve fazer uso da internet. Duas vezes por ano será solicitado um relatório com informações sobre a adoção da tecnologia pela unidade escolar, além de fotos, vídeos e depoimentos. </p><p>Após a conexão será configurado um protocolo de&nbsp;segurança (Anjo da Guarda) que&nbsp;evitará o mal uso da&nbsp;conectividade, como acesso a sites maliciosos.​</p><p>O anjo da guarda nos informará se a internet está&nbsp;sendo usada. Se não estiver,&nbsp;recomendaremos que o&nbsp;link seja levado a outra escola&nbsp;que efetivamente a use.​</p>"
         },
         {
           "title": "3. A escola ou secretaria precisa pagar algo?​",
@@ -88,7 +89,7 @@
         },
         {
           "title": "4. Qual período do apoio?​",
-          "answer": "<p>Inicialmente 3 anos.​</p>"
+          "answer": "<p>Inicialmente 3 anos, podendo ser prorrogável.</p>"
         },
         {
           "title": "5. Essa internet impede que outras sejam instaladas?​",
@@ -100,7 +101,7 @@
         },
         {
           "title": "7. Há um contrato?",
-          "answer": "<p>Sim. Entre associação escolar, provedor e Escola Conectada ou</p><p>entre&nbsp;secretaria, provedor e Escola Conectada.​</p>"
+          "answer": "<p>Sim. Entre associação escolar, provedor e Escola Conectada.</p>"
         },
         {
           "title": "8. Há alguma hipótese em que a internet possa ser desinstalada?​",
@@ -108,18 +109,18 @@
         },
         {
           "title": "9. Há mais escolas no programa?​",
-          "answer": "<p>Sim. Temos mais de 500 escolas no programa em mais de 50 municípios.​</p>"
+          "answer": "<p>Sim. Temos mais de 700 escolas com instalação feita ou em andamento. </p>"
         },
         {
           "title": "10. Como o Escola Conectada se sustenta se não cobra pelo serviço?​",
-          "answer": "<p>100% dos custos da ONG são cobertos pela empresa Datora Telecom.​</p>"
+          "answer": "<p>A mantenedora do Instituto é a empresa Datora Telecom. Os provedores de internet parceiros garantem a instalação e a manutenção mensal. </p>"
         },
         {
           "title": "11. O provedor “ganha algo” apoiando a escola?​",
           "answer": "<p>O principal benefício é contribuir com a educação local. Não há</p><p>nenhuma&nbsp;contrapartida financeira.​</p>"
         },
         {
-          "answer": "<p>Sim. Escolas de ensino exclusivamente infantil e/ou escolas sem</p><p>nenhum&nbsp;computador para uso pedagógico não são elegíveis.​</p>",
+          "answer": "<p>Sim. Escolas de ensino exclusivamente infantil não são elegíveis. </p>",
           "title": "12. Há algum perfil de escola não elegível para apoio?​"
         },
         {
@@ -132,7 +133,7 @@
         },
         {
           "title": "15. Quem escolhe a escola a ser apoiada?​",
-          "answer": "<p>O provedor. Ele vai fazer esta avaliação a partir da disponibilidade de malha&nbsp;de rede dele.​</p>"
+          "answer": "<p>O provedor. Ele fará a análise de viabilidade a partir da disponibilidade de sua rede. </p>"
         }
       ]
     },
