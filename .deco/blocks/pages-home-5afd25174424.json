@@ -43,11 +43,11 @@
       "imagemMobile": {
         "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/ec05cc54-ba21-4c3a-a3d2-766fb0896724"
       },
-      "numberOfSchools": 593,
-      "numberOfProviders": 10,
       "numberOfStudants": 231.03,
-      "numberOfStudantsNew": "270.288",
-      "numberOfSchoolsConections": 117
+      "numberOfStudantsNew": "286.083",
+      "numberOfSchools": 625,
+      "numberOfSchoolsConections": 803,
+      "numberOfProviders": 9
     },
     {
       "__resolveType": "site/sections/NewsletterNew.tsx",
@@ -92,7 +92,9 @@
           "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/b4ee9367-7452-4961-8462-db8f67cce79c"
         }
       ],
-      "madeWith": {},
+      "madeWith": {
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/1864dbdf-449e-4ab1-a4a0-1ec64e084508"
+      },
       "links": [],
       "bottomLinks": [],
       "contentWork": "<p class=\"text-[15px]\">Se você se identifica com a nossa missão, visão e valores, envie uma mensagem para&nbsp;<a href=\"mailto:contato@escolaconectada.org\" data-mce-href=\"mailto:contato@escolaconectada.org\">contato@escolaconectada.org</a></p>",

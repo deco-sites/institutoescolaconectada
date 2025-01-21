@@ -1,1 +1,121 @@
-{"name":"Quem somos","path":"/quem-somos","sections":[{"__resolveType":"website/sections/Seo/SeoV2.tsx","title":"Quem somos | Instituto Escola Conectada","description":"O Instituto Escola Conectada conecta escolas públicas à internet para garantir educação de qualidade para todos. Doe, seja voluntário e ajude a fechar a divisão digital.","image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/0f45a67c-185d-4a99-ad4d-0a6d4c98128f","titleTemplate":"%s | Instituto Escola Conectada","favicon":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/0f45a67c-185d-4a99-ad4d-0a6d4c98128f"},{"__resolveType":"New Header"},{"__resolveType":"site/sections/BannerPages.tsx","imagem":{"src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/46d9b067-e476-4ffd-a400-a6c8260b9b2d"}},{"__resolveType":"site/sections/RichText.tsx","text":"<h1 class=\"text-[#8D298F] text-4xl font-family text-center w-full uppercase mb-6 font-bold after:h-2 after:w-[30%] after:block after:mx-auto after:bg-gradient-to-r after:from-[#8D298F] after:to-[#04A8EA] after:mt-1\">Quem somos</h1><p style=\"text-align: center;\" data-mce-style=\"text-align: center;\">Levamos internet de alta velocidade gratuita para escolas públicas de todo Brasil, a partir da rede de provedores parceiros.</p>"},{"__resolveType":"site/sections/RichText.tsx","text":"<h1 class=\"text-[#8D298F] text-4xl font-family text-center w-full uppercase font-bold mt-16 block mb-8\">Nossa história</h1>"},{"__resolveType":"site/sections/Hero.tsx","title":"<p> </p>","description":" ","image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/31ff9d06-6516-4099-aebf-c499418fbc41"},{"__resolveType":"site/sections/NossosPilares.tsx"},{"__resolveType":"site/sections/Founders.tsx","founder":[{"imagem":{"src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/bceb7356-688c-4f12-96a7-415248ac14dc"},"description":"Por meio do Projeto da Escola Conectada em  parceria com a Sumicity a Escola Municipal Salles Marques  pôde garantir muitos  benefícios aos professores e alunos , possibilitando aos professores um trabalho mais enriquecedor,   com acesso a uma ampla variedade de conhecimentos, jogos e conteúdos educativos que  complementam os trabalhos e podendo aproveitar o tempo disponível na escola para pesquisas e preparação de suas aulas, o que antes do Projeto não era possível.   Somos imensamente gratos a  todos  da equipe tanto do Projeto quanto da Sumicity que nos atendem prontamente quando solicitamos!","linkedIn":"https://www.linkedin.com/company/escola-conectada/","cargo":"Escola Municipal Salles Marques - Além Paraiba - MG"},{"imagem":{"src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/c8c1ee8b-caef-4480-93a3-f5486bf17d6b"},"description":"No âmbito escolar, a Internet garante muitos benefícios, tanto para os professores quanto para os alunos. Para além da educação formal, possibilita que as crianças e adolescentes tenham acesso a uma ampla variedade de conhecimentos, jogos e conteúdos educativos, sendo complementares à sua educação formal.  O mundo sofreu grandes transformações e é preciso complementar o uso dos modelos tradicionais (quadro-giz) e se adaptar às novas demandas. Disseminar o uso da tecnologia na escola é fundamental para propiciar um ambiente interativo e mais próximo da realidade dos estudantes. - ","linkedIn":"https://www.linkedin.com/company/escola-conectada/","cargo":"Escola Municipal Professor Lafayette Cortes - Além Paraíba - MG"},{"imagem":{"src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/425151fd-58dc-4c80-9995-207b1a4e0c8a"},"description":"A escola conectada promoveu a melhoria do acesso dos estudantes a diversidade do mundo digital, possibilitando aos mesmos fazer pesquisas bem como utilizar plataformas de ensino. Essa parceria do projeto Escola conectada, Rline e Escola com certeza abre novos horizontes, a medida em que os alunos tem condições de acessar e utilizar a diversidade de conteúdo digital, com a explicação do professor, orientando o processo de ensino e aprendizagem.","linkedIn":"https://www.linkedin.com/company/escola-conectada/","cargo":"Escola Estadual Júlio Giongo - Pranchita - PR"}]},{"__resolveType":"site/sections/RichText.tsx","text":"<h2 class=\"text-[#8D298F] text-4xl font-family text-center w-full uppercase mb-6 font-bold after:h-2 after:w-[30%] after:block after:mx-auto after:bg-gradient-to-r after:from-[#8D298F] after:to-[#04A8EA] after:mt-1\">Governança</h2><h3 class=\"text-2xl mb-2\"><strong>Conselho de Administração</strong></h3><div class=\"pl-3 mb-4\"><p class=\"ml-3 block\">Tomas Henrique Fuchs</p><p class=\"ml-3 block\">Raul Fuchs</p><p class=\"ml-3 block\">Daniel Fuchs</p><p class=\"ml-3 block\">Thamyris Allonso</p><p class=\"ml-3 block\">Marcos Pinheiro</p></div><h3 class=\"text-2xl mb-2\"><strong>Conselho Fiscal</strong></h3><div class=\"pl-3 mb-4\"><p class=\"ml-3 block\">Luis Eduardo de Souza Pinto Vasquez</p><p class=\"ml-3 block\">Ricardo Yves da Cunha (suplente)</p><p class=\"ml-3 block\">Leonardo Henrique Pereira Baia</p><p class=\"ml-3 block\">Leticia Milanesi (suplente)</p><p class=\"ml-3 block\">Vanessa de Alencar Boiteaux</p><p class=\"ml-3 block\">Daniel Pastore (suplente)</p></div><h3 class=\"text-2xl mb-2\"><strong>Diretoria Estatuária</strong></h3><div class=\"pl-3 mb-4\"><p class=\"ml-3 block\">Samy Uziel (Diretor Presidente)</p><p class=\"ml-3 block\">Claude Andre Jensen Araripe Monteiro da Silva (Diretor Financeiro)</p></div><h3 class=\"text-2xl mb-2\"><strong>Equipe</strong></h3><div class=\"pl-3 mb-4\"><p class=\"ml-3 block\">Fernanda Prado</p><p class=\"ml-3 block\">Ana Paula Godoy</p><p class=\"ml-3 block\">Ana Paula Silva</p></div>"},{"__resolveType":"New Footer"}],"__resolveType":"website/pages/Page.tsx"}
+{
+  "name": "Quem somos",
+  "path": "/quem-somos",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Seo/SeoV2.tsx",
+      "title": "Quem somos | Instituto Escola Conectada",
+      "description": "O Instituto Escola Conectada conecta escolas públicas à internet para garantir educação de qualidade para todos. Doe, seja voluntário e ajude a fechar a divisão digital.",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/0f45a67c-185d-4a99-ad4d-0a6d4c98128f",
+      "titleTemplate": "%s | Instituto Escola Conectada",
+      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/0f45a67c-185d-4a99-ad4d-0a6d4c98128f"
+    },
+    {
+      "__resolveType": "New Header"
+    },
+    {
+      "__resolveType": "site/sections/BannerPages.tsx",
+      "imagem": {
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/46d9b067-e476-4ffd-a400-a6c8260b9b2d"
+      }
+    },
+    {
+      "__resolveType": "site/sections/RichText.tsx",
+      "text": "<h1 class=\"text-[#8D298F] text-4xl font-family text-center w-full uppercase mb-6 font-bold after:h-2 after:w-[30%] after:block after:mx-auto after:bg-gradient-to-r after:from-[#8D298F] after:to-[#04A8EA] after:mt-1\">Quem somos</h1><p style=\"text-align: center;\" data-mce-style=\"text-align: center;\">Levamos internet de alta velocidade gratuita para escolas públicas de todo Brasil, a partir da rede de provedores parceiros.</p>"
+    },
+    {
+      "__resolveType": "site/sections/RichText.tsx",
+      "text": "<h1 class=\"text-[#8D298F] text-4xl font-family text-center w-full uppercase font-bold mt-16 block mb-8\">Nossa história</h1>"
+    },
+    {
+      "__resolveType": "site/sections/Hero.tsx",
+      "title": "<p> </p>",
+      "description": " ",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/31ff9d06-6516-4099-aebf-c499418fbc41"
+    },
+    {
+      "__resolveType": "site/sections/NossosPilares.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Founders.tsx",
+      "founder": [
+        {
+          "imagem": {
+            "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/bceb7356-688c-4f12-96a7-415248ac14dc"
+          },
+          "description": "Por meio do Projeto da Escola Conectada em  parceria com a Sumicity a Escola Municipal Salles Marques  pôde garantir muitos  benefícios aos professores e alunos , possibilitando aos professores um trabalho mais enriquecedor,   com acesso a uma ampla variedade de conhecimentos, jogos e conteúdos educativos que  complementam os trabalhos e podendo aproveitar o tempo disponível na escola para pesquisas e preparação de suas aulas, o que antes do Projeto não era possível.   Somos imensamente gratos a  todos  da equipe tanto do Projeto quanto da Sumicity que nos atendem prontamente quando solicitamos!",
+          "linkedIn": "https://www.linkedin.com/company/escola-conectada/",
+          "cargo": "Escola Municipal Salles Marques - Além Paraiba - MG"
+        },
+        {
+          "imagem": {
+            "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/c8c1ee8b-caef-4480-93a3-f5486bf17d6b"
+          },
+          "description": "No âmbito escolar, a Internet garante muitos benefícios, tanto para os professores quanto para os alunos. Para além da educação formal, possibilita que as crianças e adolescentes tenham acesso a uma ampla variedade de conhecimentos, jogos e conteúdos educativos, sendo complementares à sua educação formal.  O mundo sofreu grandes transformações e é preciso complementar o uso dos modelos tradicionais (quadro-giz) e se adaptar às novas demandas. Disseminar o uso da tecnologia na escola é fundamental para propiciar um ambiente interativo e mais próximo da realidade dos estudantes. - ",
+          "linkedIn": "https://www.linkedin.com/company/escola-conectada/",
+          "cargo": "Escola Municipal Professor Lafayette Cortes - Além Paraíba - MG"
+        },
+        {
+          "imagem": {
+            "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/425151fd-58dc-4c80-9995-207b1a4e0c8a"
+          },
+          "description": "A escola conectada promoveu a melhoria do acesso dos estudantes a diversidade do mundo digital, possibilitando aos mesmos fazer pesquisas bem como utilizar plataformas de ensino. Essa parceria do projeto Escola conectada, Rline e Escola com certeza abre novos horizontes, a medida em que os alunos tem condições de acessar e utilizar a diversidade de conteúdo digital, com a explicação do professor, orientando o processo de ensino e aprendizagem.",
+          "linkedIn": "https://www.linkedin.com/company/escola-conectada/",
+          "cargo": "Escola Estadual Júlio Giongo - Pranchita - PR"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/RichText.tsx",
+      "text": "<h2 class=\"text-[#8D298F] text-4xl font-family text-center w-full uppercase mb-6 font-bold after:h-2 after:w-[30%] after:block after:mx-auto after:bg-gradient-to-r after:from-[#8D298F] after:to-[#04A8EA] after:mt-1\">Governança</h2><h3 class=\"text-2xl mb-2\"><strong>Conselho de Administração</strong></h3><div class=\"pl-3 mb-4\"><p class=\"ml-3 block\">Tomas Henrique Fuchs</p><p class=\"ml-3 block\">Raul Fuchs</p><p class=\"ml-3 block\">Daniel Fuchs</p><p class=\"ml-3 block\">Thamyris Allonso</p><p class=\"ml-3 block\">Marcos Pinheiro</p></div><h3 class=\"text-2xl mb-2\"><strong>Conselho Fiscal</strong></h3><div class=\"pl-3 mb-4\"><p class=\"ml-3 block\">Luis Eduardo de Souza Pinto Vasquez</p><p class=\"ml-3 block\">Ricardo Yves da Cunha (suplente)</p><p class=\"ml-3 block\">Leonardo Henrique Pereira Baia</p><p class=\"ml-3 block\">Leticia Milanesi (suplente)</p><p class=\"ml-3 block\">Vanessa de Alencar Boiteaux</p><p class=\"ml-3 block\">Daniel Pastore (suplente)</p></div><h3 class=\"text-2xl mb-2\"><strong>Diretoria Estatuária</strong></h3><div class=\"pl-3 mb-4\"><p class=\"ml-3 block\">Samy Uziel (Diretor Presidente)</p><p class=\"ml-3 block\">Claude Andre Jensen Araripe Monteiro da Silva (Diretor Financeiro)</p></div><h3 class=\"text-2xl mb-2\"><strong>Equipe</strong></h3><div class=\"pl-3 mb-4\"><p class=\"ml-3 block\">Fernanda Prado</p><p class=\"ml-3 block\">Ana Paula Godoy</p><p class=\"ml-3 block\">Ana Paula Silva</p></div>"
+    },
+    {
+      "__resolveType": "site/sections/Footer.tsx",
+      "subscribe": {},
+      "logo": {
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/0f45a67c-185d-4a99-ad4d-0a6d4c98128f"
+      },
+      "social": [
+        {
+          "network": "Instagram",
+          "href": "https://www.instagram.com/escolaconectada/ "
+        },
+        {
+          "network": "Youtube",
+          "href": "https://www.youtube.com/@Escola_Conectada"
+        },
+        {
+          "network": "Linkedin",
+          "href": "https://www.linkedin.com/company/escola-conectada/"
+        }
+      ],
+      "selos": [
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/ccca7c68-0be4-4244-9162-f7acd623280a"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/8d44dedf-da4b-4227-99de-3d2ceff51c1d",
+          "name": "Educação de Qualidade"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/544bb0d3-218a-46e3-8b88-d65900e94463"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/006f343a-2b33-4886-b10c-54cec90ff5f9"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/b4ee9367-7452-4961-8462-db8f67cce79c"
+        }
+      ],
+      "madeWith": {
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/e51ad240-e324-491b-9bbb-c30559bae67e"
+      },
+      "links": [],
+      "bottomLinks": [],
+      "contentWork": "<p class=\"text-[15px]\">Se você se identifica com a nossa missão, visão e valores, envie uma mensagem para&nbsp;<a href=\"mailto:contato@escolaconectada.org\" data-mce-href=\"mailto:contato@escolaconectada.org\">contato@escolaconectada.org</a></p>",
+      "titleWork": " Trabalhe conosco",
+      "addressBottom": "Avenida Brigadeiro Faria Lima, 3144. Cj 131. Jardim Paulistano. São Paulo-SP. CEP: 01.451-000 - contato@escolaconectada.org"
+    }
+  ],
+  "__resolveType": "website/pages/Page.tsx"
+}

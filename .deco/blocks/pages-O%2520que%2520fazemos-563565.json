@@ -1,1 +1,81 @@
-{"name":"O que fazemos","path":"/o-que-fazemos","sections":[{"__resolveType":"website/sections/Seo/SeoV2.tsx","title":"O que fazemos | Escola Conectada","description":"Educação para o futuro: Escola Conectada  Metodologia inovadora: Aprendizagem ativa e tecnológica. Professores inspiradores: Paixão por ensinar e apoiar. Ambiente acolhedor: Valorização e respeito à diversidade. Desenvolvimento integral: Além do acadêmico. Sucesso na vida: Preparação para a universidade e o mercado de trabalho. Visite nosso site e potencialize o futuro do seu filho!","type":"website","image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/0f45a67c-185d-4a99-ad4d-0a6d4c98128f","favicon":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/bff101b8-a1a3-488b-b1a7-562968a87767"},{"__resolveType":"New Header"},{"__resolveType":"site/sections/BannerPages.tsx","imagem":{"src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/48694025-dd87-4ddd-90e4-7696d600b504"}},{"__resolveType":"site/sections/RichText.tsx","text":"<h1 class=\"text-[#8D298F] text-4xl font-family text-center w-full uppercase mb-6 font-bold after:h-2 after:w-[30%] after:block after:mx-auto after:bg-gradient-to-r after:from-[#8D298F] after:to-[#04A8EA] after:mt-1\">O que fazemos</h1><p><strong>Diagnóstico</strong><br>Calculamos o Índice Escola Conectada, garantindo que as escolas estejam aptas a participar do programa.<br><br><strong>Conexão</strong><br>Conectamos escolas a provedores de internet locais, garantindo a expansão e sustentabilidade do projeto.<br><br><strong>Monitoramento</strong><br>Monitoramos a conectividade através de uma plataforma própria, garantindo a segurança, qualidade e privacidade da conectividade.<br><br><strong>Mensuração</strong><br>Mensuramos os resultados por meio de indicadores próprios, provando o quanto a internet de qualidade impacta na vida dos estudantes.</p>"},{"__resolveType":"site/sections/Map.tsx","textMap":"<p><strong style=\"font-weight: 400; font-size: 25px;\"><span style=\"color: rgb(255, 255, 255)\">530</strong> escolas</span></p><p><strong style=\"font-weight: 400; font-size: 25px;\"><span style=\"color: rgb(255, 255, 255)\">12</strong> estados</span></p><p><strong style=\"font-weight: 400; font-size: 25px;\"><span style=\"color: rgb(255, 255, 255)\">54</strong> municípios.</span></p>","titleMap":"Onde estamos","linkIframeMap":"<iframe src='https://www.google.com/maps/d/u/0/embed?mid=1lFW2lx4RYWygzowEV0GimuJ1hN_JpcU&ehbc=2E312F&noprof=1' width='640' height='480'></iframe>"},{"__resolveType":"New Footer"}],"__resolveType":"website/pages/Page.tsx"}
+{
+  "name": "O que fazemos",
+  "path": "/o-que-fazemos",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Seo/SeoV2.tsx",
+      "title": "O que fazemos | Escola Conectada",
+      "description": "Educação para o futuro: Escola Conectada  Metodologia inovadora: Aprendizagem ativa e tecnológica. Professores inspiradores: Paixão por ensinar e apoiar. Ambiente acolhedor: Valorização e respeito à diversidade. Desenvolvimento integral: Além do acadêmico. Sucesso na vida: Preparação para a universidade e o mercado de trabalho. Visite nosso site e potencialize o futuro do seu filho!",
+      "type": "website",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/0f45a67c-185d-4a99-ad4d-0a6d4c98128f",
+      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/bff101b8-a1a3-488b-b1a7-562968a87767"
+    },
+    {
+      "__resolveType": "New Header"
+    },
+    {
+      "__resolveType": "site/sections/BannerPages.tsx",
+      "imagem": {
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/48694025-dd87-4ddd-90e4-7696d600b504"
+      }
+    },
+    {
+      "__resolveType": "site/sections/RichText.tsx",
+      "text": "<h1 class=\"text-[#8D298F] text-4xl font-family text-center w-full uppercase mb-6 font-bold after:h-2 after:w-[30%] after:block after:mx-auto after:bg-gradient-to-r after:from-[#8D298F] after:to-[#04A8EA] after:mt-1\">O que fazemos</h1><p><strong>Diagnóstico</strong><br>Calculamos o Índice Escola Conectada, garantindo que as escolas estejam aptas a participar do programa.<br><br><strong>Conexão</strong><br>Conectamos escolas a provedores de internet locais, garantindo a expansão e sustentabilidade do projeto.<br><br><strong>Monitoramento</strong><br>Monitoramos a conectividade através de uma plataforma própria, garantindo a segurança, qualidade e privacidade da conectividade.<br><br><strong>Mensuração</strong><br>Mensuramos os resultados por meio de indicadores próprios, provando o quanto a internet de qualidade impacta na vida dos estudantes.</p>"
+    },
+    {
+      "__resolveType": "site/sections/Map.tsx",
+      "textMap": "<p><strong><span style=\"color: rgb(255, 255, 255)\">625</span></strong> escolas</p><p><strong><span style=\"color: rgb(255, 255, 255)\">13</span></strong> estados</p><p><strong><span style=\"color: rgb(255, 255, 255)\">68</span></strong> municípios.</p>",
+      "titleMap": "Onde estamos",
+      "linkIframeMap": "<iframe src='https://www.google.com/maps/d/u/0/embed?mid=1lFW2lx4RYWygzowEV0GimuJ1hN_JpcU&ehbc=2E312F&noprof=1' width='640' height='480'></iframe>"
+    },
+    {
+      "__resolveType": "site/sections/Footer.tsx",
+      "subscribe": {},
+      "logo": {
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/0f45a67c-185d-4a99-ad4d-0a6d4c98128f"
+      },
+      "social": [
+        {
+          "network": "Instagram",
+          "href": "https://www.instagram.com/escolaconectada/ "
+        },
+        {
+          "network": "Youtube",
+          "href": "https://www.youtube.com/@Escola_Conectada"
+        },
+        {
+          "network": "Linkedin",
+          "href": "https://www.linkedin.com/company/escola-conectada/"
+        }
+      ],
+      "selos": [
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/ccca7c68-0be4-4244-9162-f7acd623280a"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/8d44dedf-da4b-4227-99de-3d2ceff51c1d",
+          "name": "Educação de Qualidade"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/544bb0d3-218a-46e3-8b88-d65900e94463"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/006f343a-2b33-4886-b10c-54cec90ff5f9"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/b4ee9367-7452-4961-8462-db8f67cce79c"
+        }
+      ],
+      "madeWith": {
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/1864dbdf-449e-4ab1-a4a0-1ec64e084508"
+      },
+      "links": [],
+      "bottomLinks": [],
+      "contentWork": "<p class=\"text-[15px]\">Se você se identifica com a nossa missão, visão e valores, envie uma mensagem para&nbsp;<a href=\"mailto:contato@escolaconectada.org\" data-mce-href=\"mailto:contato@escolaconectada.org\">contato@escolaconectada.org</a></p>",
+      "titleWork": " Trabalhe conosco",
+      "addressBottom": "Avenida Brigadeiro Faria Lima, 3144. Cj 131. Jardim Paulistano. São Paulo-SP. CEP: 01.451-000 - contato@escolaconectada.org"
+    }
+  ],
+  "__resolveType": "website/pages/Page.tsx"
+}

@@ -28,8 +28,10 @@
       "title": "Patrocinadores",
       "logoParceiro": [
         {
-          "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/institutoescolaconectada/a6680573-7e14-4b1c-9cd2-dd05a17bb47a/datora-logo-iec.png"
+          "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/institutoescolaconectada/a6680573-7e14-4b1c-9cd2-dd05a17bb47a/datora-logo-iec.png",
+          "label": "Datora"
         },
+        {},
         {
           "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/institutoescolaconectada/d6ec57fb-bf84-4e9b-a2b3-3af8356628b7/arquia-logo-iec.png"
         }
@@ -77,6 +79,9 @@
         },
         {
           "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/af65b8be-99c2-4482-837d-09a8b1f00048"
+        },
+        {
+          "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/institutoescolaconectada/f4d77505-5ef2-4b24-9fc8-e6a4a9b52d32/logo-horizontal-cor-(1).png"
         }
       ]
     },
@@ -84,7 +89,52 @@
       "__resolveType": "site/sections/ImageWithParagraph.tsx"
     },
     {
-      "__resolveType": "New Footer"
+      "__resolveType": "site/sections/Footer.tsx",
+      "subscribe": {},
+      "logo": {
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/0f45a67c-185d-4a99-ad4d-0a6d4c98128f"
+      },
+      "social": [
+        {
+          "network": "Instagram",
+          "href": "https://www.instagram.com/escolaconectada/ "
+        },
+        {
+          "network": "Youtube",
+          "href": "https://www.youtube.com/@Escola_Conectada"
+        },
+        {
+          "network": "Linkedin",
+          "href": "https://www.linkedin.com/company/escola-conectada/"
+        }
+      ],
+      "selos": [
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/ccca7c68-0be4-4244-9162-f7acd623280a"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/8d44dedf-da4b-4227-99de-3d2ceff51c1d",
+          "name": "Educação de Qualidade"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/544bb0d3-218a-46e3-8b88-d65900e94463"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/006f343a-2b33-4886-b10c-54cec90ff5f9"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/b4ee9367-7452-4961-8462-db8f67cce79c"
+        }
+      ],
+      "madeWith": {
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/e51ad240-e324-491b-9bbb-c30559bae67e",
+        "href": "https://www.websense.consulting/"
+      },
+      "links": [],
+      "bottomLinks": [],
+      "contentWork": "<p class=\"text-[15px]\">Se você se identifica com a nossa missão, visão e valores, envie uma mensagem para&nbsp;<a href=\"mailto:contato@escolaconectada.org\" data-mce-href=\"mailto:contato@escolaconectada.org\">contato@escolaconectada.org</a></p>",
+      "titleWork": " Trabalhe conosco",
+      "addressBottom": "Avenida Brigadeiro Faria Lima, 3144. Cj 131. Jardim Paulistano. São Paulo-SP. CEP: 01.451-000 - contato@escolaconectada.org"
     }
   ],
   "__resolveType": "website/pages/Page.tsx"

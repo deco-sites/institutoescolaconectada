@@ -1,1 +1,189 @@
-{"name":"Transparência","path":"/transparencia","sections":[{"__resolveType":"website/sections/Seo/SeoV2.tsx","title":"Transparência | Escola Conectada","description":"Meta Description Otimizada para \"Transparência\" da Escola Conectada: Escola Conectada: Transparência para uma educação de qualidade.  Conheça nossa gestão, valores e compromisso com a educação.  Gestão transparente: Informação clara e acessível sobre a gestão da escola. Valores éticos: Compromisso com a ética, responsabilidade e respeito à comunidade. Educação de qualidade: Foco no desenvolvimento integral dos alunos. Prestação de contas: Relatórios anuais e informações financeiras disponíveis. Comunicação aberta: Canal direto para dúvidas, sugestões e reclamações. Construindo uma comunidade escolar transparente e engajada.","type":"website","image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/0f45a67c-185d-4a99-ad4d-0a6d4c98128f","favicon":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/bff101b8-a1a3-488b-b1a7-562968a87767"},{"__resolveType":"New Header"},{"__resolveType":"site/sections/BannerPages.tsx","imagem":{"src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/c08d68f2-9c2a-478a-9b05-91f698234624"}},{"__resolveType":"site/sections/LinksTransparencia.tsx","link":[{"text":"Relatório Anual 2021","link":"https://escolaconectadabr-my.sharepoint.com/:b:/g/personal/marcos_pinheiro_escolaconectada_org/Ea6-4Mkt8NtBjhi0-NyNM64BR8G6Z3YwgRqrFcBHAenVqg?e=T4GjL7"},{"text":"Relatório Anual 2022","link":"https://escolaconectadabr-my.sharepoint.com/:b:/g/personal/marcos_pinheiro_escolaconectada_org/ERQC7MASFTFGtlbih8K_dWMBVDNG1GquHqkieffYrNf8Kw?e=BYvKub"},{"text":"Relatório Anual 2023","link":"https://escolaconectadabr-my.sharepoint.com/:b:/g/personal/marcos_pinheiro_escolaconectada_org/EZ0ezSk_pb1Htq9fYZ4a53ABJeCZrmfv_bfxjZI5rjX10w?e=8vKuH5"},{"text":"Estatuto Social","link":"https://escolaconectadabr-my.sharepoint.com/:b:/g/personal/marcos_pinheiro_escolaconectada_org/Ebonspd3EzRJmzcKZ4Ythl0BlPVbg4pi7M3lL33J3n95HQ?e=sRfbic"},{"text":"Código de Conduta","link":"https://escolaconectadabr-my.sharepoint.com/:b:/g/personal/marcos_pinheiro_escolaconectada_org/EbjeXx07u-1BmNVhiwRtrN4Bj6AOPeCfFOEZuuzwM3iAkg?e=V6aXqf"},{"text":"Política de Privacidade","link":"https://escolaconectadabr-my.sharepoint.com/:b:/g/personal/marcos_pinheiro_escolaconectada_org/EQH8CvcDTGhItP22CZpbpB0BcpmpEm11UB4jY93z3xADVw?e=bZ2Crs"},{"text":"Política de Doação","link":"https://escolaconectadabr-my.sharepoint.com/:b:/g/personal/marcos_pinheiro_escolaconectada_org/ERENBcP5NhFCo2BwuK0PmvMBBdzN_AubjfROU82S021r-w?e=jabfDd"},{"link":"https://escolaconectadabr-my.sharepoint.com/:b:/g/personal/marcos_pinheiro_escolaconectada_org/ETbJfh9X-XBGkuqWozJwPnMB6hrM2pQcVeSfjOSBah-FAA?e=hleC7O","text":"Cartão CNPJ"},{"text":"Ata Eleição Diretoria","link":"https://escolaconectadabr-my.sharepoint.com/:b:/g/personal/marcos_pinheiro_escolaconectada_org/EaAZeLs43zVKiBJURyS5fV0B8_tsl1nKKFpLkARIshygig?e=XWLCWa"},{"link":"https://escolaconectadabr-my.sharepoint.com/:b:/g/personal/marcos_pinheiro_escolaconectada_org/EbVak4pj2_VFptPVP6I2FuIBf9Z94UhtSr-1Es9pZ6H_yQ?e=LjGHjA","text":"Demonstrações Contábeis 2021"},{"text":"Demonstrações Contábeis 2022","link":"https://escolaconectadabr-my.sharepoint.com/:b:/g/personal/marcos_pinheiro_escolaconectada_org/Ea5IoAiLY09Cp1ASH7q_8N4Ba2A5Is6WbxcjiQG6fwjTpA?e=WxY4xR"},{"text":"Demonstrações Contábeis 2023","link":"https://escolaconectadabr-my.sharepoint.com/:b:/g/personal/marcos_pinheiro_escolaconectada_org/EcNcMhFn8vNPhwInIYfMPDQBh9lIN8jizUJoSMXWCmRaCA?e=m1PZaA"}]},{"__resolveType":"site/sections/Faq.tsx","questions":[{"title":"1. Como fazer parte do programa?​","answer":"<p>A escola ou secretaria&nbsp;precisa apenas entrar no</p><p>site&nbsp;<a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"http://www.escolaconectada.org\">www.escolaconectada.org</a>&nbsp;e fazer uma inscrição curta&nbsp;das escolas que</p><p>desejam receber o link.​</p><p>Se a escola for aprovada e tiver um provedor com rede&nbsp;na região,&nbsp;entraremos</p><p>em contato&nbsp;para viabilizar a&nbsp;instalação.​</p>"},{"title":"2. Depois da instalação, preciso fazer algo?","answer":"<p>A única contrapartida que pedimos é que a escola&nbsp;use&nbsp;a&nbsp;internet.​</p><p>Após a conexão será configurado um protocolo de&nbsp;segurança (Anjo da Guarda)</p><p>que&nbsp;evitará o mal uso da&nbsp;conectividade, como acesso a sites maliciosos.​</p><p>O anjo da guarda nos informará se a internet está&nbsp;sendo usada. Se não</p><p>estiver,&nbsp;recomendaremos que o&nbsp;link seja levado a outra escola&nbsp;que</p><p>efetivamente a use.​</p>"},{"title":"3. A escola ou secretaria precisa pagar algo?​","answer":"<p>Não.</p>"},{"title":"4. Qual período do apoio?​","answer":"<p>Inicialmente 3 anos.​</p>"},{"title":"5. Essa internet impede que outras sejam instaladas?​","answer":"<p>Não. A escola pode continuar com as outras conexões.​</p>"},{"title":"6. Em caso de problemas na rede, quem dá o suporte?​","answer":"<p>A própria empresa. A escola será como um cliente comum.​</p>"},{"title":"7. Há um contrato?","answer":"<p>Sim. Entre associação escolar, provedor e Escola Conectada ou</p><p>entre&nbsp;secretaria, provedor e Escola Conectada.​</p>"},{"title":"8. Há alguma hipótese em que a internet possa ser desinstalada?​","answer":"<p>Sim. Caso a escola não faça uso da conexão por um semestre inteiro.​</p>"},{"title":"9. Há mais escolas no programa?​","answer":"<p>Sim. Temos mais de 500 escolas no programa em mais de 50 municípios.​</p>"},{"title":"10. Como o Escola Conectada se sustenta se não cobra pelo serviço?​","answer":"<p>100% dos custos da ONG são cobertos pela empresa Datora Telecom.​</p>"},{"title":"11. O provedor “ganha algo” apoiando a escola?​","answer":"<p>O principal benefício é contribuir com a educação local. Não há</p><p>nenhuma&nbsp;contrapartida financeira.​</p>"},{"answer":"<p>Sim. Escolas de ensino exclusivamente infantil e/ou escolas sem</p><p>nenhum&nbsp;computador para uso pedagógico não são elegíveis.​</p>","title":"12. Há algum perfil de escola não elegível para apoio?​"},{"title":"13. Há limite de escolas apoiadas por estado?​","answer":"<p>Não.</p>"},{"title":"14. Só escolas sem internet podem participar?","answer":"<p>Não. Tanto escolas com internet quanto escolas sem internet podem ser&nbsp;apoiadas.​</p>"},{"title":"15. Quem escolhe a escola a ser apoiada?​","answer":"<p>O provedor. Ele vai fazer esta avaliação a partir da disponibilidade de malha&nbsp;de rede dele.​</p>"}]},{"__resolveType":"New Footer"}],"__resolveType":"website/pages/Page.tsx"}
+{
+  "name": "Transparência",
+  "path": "/transparencia",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Seo/SeoV2.tsx",
+      "title": "Transparência | Escola Conectada",
+      "description": "Meta Description Otimizada para \"Transparência\" da Escola Conectada: Escola Conectada: Transparência para uma educação de qualidade.  Conheça nossa gestão, valores e compromisso com a educação.  Gestão transparente: Informação clara e acessível sobre a gestão da escola. Valores éticos: Compromisso com a ética, responsabilidade e respeito à comunidade. Educação de qualidade: Foco no desenvolvimento integral dos alunos. Prestação de contas: Relatórios anuais e informações financeiras disponíveis. Comunicação aberta: Canal direto para dúvidas, sugestões e reclamações. Construindo uma comunidade escolar transparente e engajada.",
+      "type": "website",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/0f45a67c-185d-4a99-ad4d-0a6d4c98128f",
+      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/bff101b8-a1a3-488b-b1a7-562968a87767"
+    },
+    {
+      "__resolveType": "New Header"
+    },
+    {
+      "__resolveType": "site/sections/BannerPages.tsx",
+      "imagem": {
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/c08d68f2-9c2a-478a-9b05-91f698234624"
+      }
+    },
+    {
+      "__resolveType": "site/sections/LinksTransparencia.tsx",
+      "link": [
+        {
+          "text": "Relatório Anual 2021",
+          "link": "https://escolaconectadabr-my.sharepoint.com/:b:/g/personal/marcos_pinheiro_escolaconectada_org/Ea6-4Mkt8NtBjhi0-NyNM64BR8G6Z3YwgRqrFcBHAenVqg?e=T4GjL7"
+        },
+        {
+          "text": "Relatório Anual 2022",
+          "link": "https://escolaconectadabr-my.sharepoint.com/:b:/g/personal/paula_godoy_escolaconectada_org/EYzs7R004CdGvkc3pP9e8CgBO_bzpOs7LWelrCH8y8E7Kg?e=aUEsQn"
+        },
+        {
+          "text": "Relatório Anual 2023",
+          "link": "https://escolaconectadabr-my.sharepoint.com/:b:/g/personal/marcos_pinheiro_escolaconectada_org/EZ0ezSk_pb1Htq9fYZ4a53ABJeCZrmfv_bfxjZI5rjX10w?e=8vKuH5"
+        },
+        {
+          "text": "Estatuto Social",
+          "link": "https://escolaconectadabr-my.sharepoint.com/:b:/g/personal/paula_godoy_escolaconectada_org/EXe8gEAT7uBKmGBk9_WmLkYBJYrvZPV6bnsloUgnKv-Zbw?e=oP6wRe"
+        },
+        {
+          "text": "Código de Conduta",
+          "link": "https://escolaconectadabr-my.sharepoint.com/:b:/g/personal/marcos_pinheiro_escolaconectada_org/EbjeXx07u-1BmNVhiwRtrN4Bj6AOPeCfFOEZuuzwM3iAkg?e=V6aXqf"
+        },
+        {
+          "text": "Política de Privacidade",
+          "link": "https://escolaconectadabr-my.sharepoint.com/:b:/g/personal/paula_godoy_escolaconectada_org/ESyPD1q_qZ9Bsov2wmfKUT4BA_XulJUYwltdxTSR9V3geA?e=aVSrSW"
+        },
+        {
+          "text": "Política de Doação",
+          "link": "https://escolaconectadabr-my.sharepoint.com/:b:/g/personal/marcos_pinheiro_escolaconectada_org/ERENBcP5NhFCo2BwuK0PmvMBBdzN_AubjfROU82S021r-w?e=jabfDd"
+        },
+        {
+          "link": "https://escolaconectadabr-my.sharepoint.com/:b:/g/personal/marcos_pinheiro_escolaconectada_org/ETbJfh9X-XBGkuqWozJwPnMB6hrM2pQcVeSfjOSBah-FAA?e=hleC7O",
+          "text": "Cartão CNPJ"
+        },
+        {
+          "text": "Ata Eleição Diretoria",
+          "link": "https://escolaconectadabr-my.sharepoint.com/:b:/g/personal/paula_godoy_escolaconectada_org/EYMLUOPlJA9JutU73soLkGkBfm0orRexVkXVuBV1o2Dw5w?e=0MHL4j"
+        },
+        {
+          "link": "https://escolaconectadabr-my.sharepoint.com/:b:/g/personal/marcos_pinheiro_escolaconectada_org/EbVak4pj2_VFptPVP6I2FuIBf9Z94UhtSr-1Es9pZ6H_yQ?e=LjGHjA",
+          "text": "Demonstrações Contábeis 2021"
+        },
+        {
+          "text": "Demonstrações Contábeis 2022",
+          "link": "https://escolaconectadabr-my.sharepoint.com/:b:/g/personal/marcos_pinheiro_escolaconectada_org/Ea5IoAiLY09Cp1ASH7q_8N4Ba2A5Is6WbxcjiQG6fwjTpA?e=WxY4xR"
+        },
+        {
+          "text": "Demonstrações Contábeis 2023",
+          "link": "https://escolaconectadabr-my.sharepoint.com/:b:/g/personal/marcos_pinheiro_escolaconectada_org/EcNcMhFn8vNPhwInIYfMPDQBh9lIN8jizUJoSMXWCmRaCA?e=m1PZaA"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Faq.tsx",
+      "questions": [
+        {
+          "title": "1. Como fazer parte do programa?​",
+          "answer": "<p>A escola ou secretaria&nbsp;precisa apenas entrar no site&nbsp;<a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"http://www.escolaconectada.org\">www.escolaconectada.org</a>&nbsp;e fazer uma inscrição curta&nbsp;das escolas que desejam receber o link.​</p><p>Se a escola for aprovada e tiver um provedor com rede&nbsp;na região,&nbsp;entraremos em contato&nbsp;para viabilizar a&nbsp;instalação.</p>"
+        },
+        {
+          "title": "2. Depois da instalação, preciso fazer algo?",
+          "answer": "<p>A escola deve fazer uso da internet. Duas vezes por ano será solicitado um relatório com informações sobre a adoção da tecnologia pela unidade escolar, além de fotos, vídeos e depoimentos. </p><p>Após a conexão será configurado um protocolo de&nbsp;segurança (Anjo da Guarda) que&nbsp;evitará o mal uso da&nbsp;conectividade, como acesso a sites maliciosos.​</p><p>O anjo da guarda nos informará se a internet está&nbsp;sendo usada. Se não estiver,&nbsp;recomendaremos que o&nbsp;link seja levado a outra escola&nbsp;que efetivamente a use.​</p>"
+        },
+        {
+          "title": "3. A escola ou secretaria precisa pagar algo?​",
+          "answer": "<p>Não.</p>"
+        },
+        {
+          "title": "4. Qual período do apoio?​",
+          "answer": "<p>Inicialmente 3 anos, podendo ser prorrogável.</p>"
+        },
+        {
+          "title": "5. Essa internet impede que outras sejam instaladas?​",
+          "answer": "<p>Não. A escola pode continuar com as outras conexões.​</p>"
+        },
+        {
+          "title": "6. Em caso de problemas na rede, quem dá o suporte?​",
+          "answer": "<p>A própria empresa. A escola será como um cliente comum.​</p>"
+        },
+        {
+          "title": "7. Há um contrato?",
+          "answer": "<p>Sim. Entre associação escolar, provedor e Escola Conectada.</p>"
+        },
+        {
+          "title": "8. Há alguma hipótese em que a internet possa ser desinstalada?​",
+          "answer": "<p>Sim. Caso a escola não faça uso da conexão por um semestre inteiro.​</p>"
+        },
+        {
+          "title": "9. Há mais escolas no programa?​",
+          "answer": "<p>Sim. Temos mais de 700 escolas com instalação feita ou em andamento. </p>"
+        },
+        {
+          "title": "10. Como o Escola Conectada se sustenta se não cobra pelo serviço?​",
+          "answer": "<p>A mantenedora do Instituto é a empresa Datora Telecom. Os provedores de internet parceiros garantem a instalação e a manutenção mensal. </p>"
+        },
+        {
+          "title": "11. O provedor “ganha algo” apoiando a escola?​",
+          "answer": "<p>O principal benefício é contribuir com a educação local. Não há nenhuma&nbsp;contrapartida financeira.​</p>"
+        },
+        {
+          "answer": "<p>Sim. Escolas de ensino exclusivamente infantil não são elegíveis. </p>",
+          "title": "12. Há algum perfil de escola não elegível para apoio?​"
+        },
+        {
+          "title": "13. Há limite de escolas apoiadas por estado?​",
+          "answer": "<p>Não.</p>"
+        },
+        {
+          "title": "14. Só escolas sem internet podem participar?",
+          "answer": "<p>Não. Tanto escolas com internet quanto escolas sem internet podem ser&nbsp;apoiadas.​</p>"
+        },
+        {
+          "title": "15. Quem escolhe a escola a ser apoiada?​",
+          "answer": "<p>O provedor. Ele fará a análise de viabilidade a partir da disponibilidade de sua rede. </p>"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Footer.tsx",
+      "subscribe": {},
+      "logo": {
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/0f45a67c-185d-4a99-ad4d-0a6d4c98128f"
+      },
+      "social": [
+        {
+          "network": "Instagram",
+          "href": "https://www.instagram.com/escolaconectada/ "
+        },
+        {
+          "network": "Youtube",
+          "href": "https://www.youtube.com/@Escola_Conectada"
+        },
+        {
+          "network": "Linkedin",
+          "href": "https://www.linkedin.com/company/escola-conectada/"
+        }
+      ],
+      "selos": [
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/ccca7c68-0be4-4244-9162-f7acd623280a"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/8d44dedf-da4b-4227-99de-3d2ceff51c1d",
+          "name": "Educação de Qualidade"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/544bb0d3-218a-46e3-8b88-d65900e94463"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/006f343a-2b33-4886-b10c-54cec90ff5f9"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/b4ee9367-7452-4961-8462-db8f67cce79c"
+        }
+      ],
+      "madeWith": {
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/e51ad240-e324-491b-9bbb-c30559bae67e"
+      },
+      "links": [],
+      "bottomLinks": [],
+      "contentWork": "<p class=\"text-[15px]\">Se você se identifica com a nossa missão, visão e valores, envie uma mensagem para&nbsp;<a href=\"mailto:contato@escolaconectada.org\" data-mce-href=\"mailto:contato@escolaconectada.org\">contato@escolaconectada.org</a></p>",
+      "titleWork": " Trabalhe conosco",
+      "addressBottom": "Avenida Brigadeiro Faria Lima, 3144. Cj 131. Jardim Paulistano. São Paulo-SP. CEP: 01.451-000 - contato@escolaconectada.org"
+    }
+  ],
+  "__resolveType": "website/pages/Page.tsx"
+}
