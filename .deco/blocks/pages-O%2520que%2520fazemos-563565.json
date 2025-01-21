@@ -25,7 +25,7 @@
     },
     {
       "__resolveType": "site/sections/Map.tsx",
-      "textMap": "<p><strong><span style=\"color: rgb(255, 255, 255)\">625</span></strong> escolas</p><p><strong><span style=\"color: rgb(255, 255, 255)\">13</span></strong> estados</p><p><strong><span style=\"color: rgb(255, 255, 255)\">68</span></strong> municípios.</p>",
+      "textMap": "<p><strong style=\"font-weight: 400; font-size: 25px;\"><span style=\"color: rgb(255, 255, 255)\">530</strong> escolas</span></p><p><strong style=\"font-weight: 400; font-size: 25px;\"><span style=\"color: rgb(255, 255, 255)\">12</strong> estados</span></p><p><strong style=\"font-weight: 400; font-size: 25px;\"><span style=\"color: rgb(255, 255, 255)\">54</strong> municípios.</span></p>",
       "titleMap": "Onde estamos",
       "linkIframeMap": "<iframe src='https://www.google.com/maps/d/u/0/embed?mid=1lFW2lx4RYWygzowEV0GimuJ1hN_JpcU&ehbc=2E312F&noprof=1' width='640' height='480'></iframe>"
     },
