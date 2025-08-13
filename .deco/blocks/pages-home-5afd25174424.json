@@ -44,10 +44,10 @@
         "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7759/ec05cc54-ba21-4c3a-a3d2-766fb0896724"
       },
       "numberOfStudants": 231.03,
-      "numberOfSchools": 672,
-      "numberOfStudantsNew": "311.550",
-      "numberOfProviders": 10,
-      "numberOfSchoolsConections": 680
+      "numberOfStudantsNew": "330.469",
+      "numberOfProviders": 11,
+      "numberOfSchools": 700,
+      "numberOfSchoolsConections": 425
     },
     {
       "__resolveType": "site/sections/NewsletterNew.tsx",
